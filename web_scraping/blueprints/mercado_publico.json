@@ -1,0 +1,123 @@
+{
+  "1": {
+    "descripcion": "lblFicha1Descripcion",
+    "tipo": "lblFicha1Tipo",
+    "etapas": "lblFicha1Etapas"
+  },
+  "2": {
+    "razonSocial": "lnkFicha2Razon",
+    "unidadDeCompra": "lblFicha2Unidad",
+    "rut": "lblFicha2RUT",
+    "direccion": "lblFicha2Direccion",
+    "comuna": "lblFicha2Comuna",
+    "regionDeLicitacion": "lblFicha2Region"
+  },
+  "3": {},
+  "4": {
+    "documentosAdministrativos": "grvAdministrativo_ctl02_lblDescripcion",
+    "documentosTecnicos": "grvTecnico_ctl02_lblDescripcion",
+    "documentosEconomicos": "grvEconomico_ctl02_lblDescripcion"
+  },
+  "5": {
+    "personaNatural": [
+      "grvNatural_ctl02_lblDescripcion",
+      "grvNatural_ctl03_lblDescripcion",
+      "grvNatural_ctl04_lblDescripcion",
+      "grvNatural_ctl05_lblDescripcion",
+      "grvNatural_ctl06_lblDescripcion",
+      "grvNatural_ctl07_lblDescripcion",
+      "grvNatural_ctl08_lblDescripcion",
+      "grvNatural_ctl09_lblDescripcion"
+    ],
+    "documentosPersonaNatural": [
+      "grvDocumentosNaturales_ctl02_lblDocumento",
+      "grvDocumentosNaturales_ctl03_lblDocumento",
+      "grvDocumentosNaturales_ctl04_lblDocumento",
+      "grvDocumentosNaturales_ctl05_lblDocumento",
+      "grvDocumentosNaturales_ctl06_lblDocumento",
+      "grvDocumentosNaturales_ctl07_lblDocumento",
+      "grvDocumentosNaturales_ctl08_lblDocumento",
+      "grvDocumentosNaturales_ctl09_lblDocumento"
+    ],
+    "personaJuridica": [
+      "grvJuridica_ctl02_lblDescripcion",
+      "grvJuridica_ctl03_lblDescripcion",
+      "grvJuridica_ctl04_lblDescripcion",
+      "grvJuridica_ctl05_lblDescripcion",
+      "grvJuridica_ctl06_lblDescripcion",
+      "grvJuridica_ctl07_lblDescripcion",
+      "grvJuridica_ctl08_lblDescripcion",
+      "grvJuridica_ctl09_lblDescripcion"
+    ],
+    "documentosPersonaJuridica": [
+      "grvDocumentosJuridicos_ctl02_lblDocumento",
+      "grvDocumentosJuridicos_ctl03_lblDocumento",
+      "grvDocumentosJuridicos_ctl04_lblDocumento",
+      "grvDocumentosJuridicos_ctl05_lblDocumento",
+      "grvDocumentosJuridicos_ctl06_lblDocumento",
+      "grvDocumentosJuridicos_ctl07_lblDocumento",
+      "grvDocumentosJuridicos_ctl08_lblDocumento",
+      "grvDocumentosJuridicos_ctl09_lblDocumento"
+    ]
+  },
+  "6": {
+    "item1": {
+      "nombre": "grvCriterios_ctl02_lblNombreCriterio",
+      "observacion": "grvCriterios_ctl02_lblObservaciones",
+      "ponderacion": "grvCriterios_ctl02_lblPonderacion"
+    },
+    "item2": {
+      "nombre": "grvCriterios_ctl03_lblNombreCriterio",
+      "observacion": "grvCriterios_ctl03_lblObservaciones",
+      "ponderacion": "grvCriterios_ctl03_lblPonderacion"
+    },
+    "item3": {
+      "nombre": "grvCriterios_ctl04_lblNombreCriterio",
+      "observacion": "grvCriterios_ctl04_lblObservaciones",
+      "ponderacion": "grvCriterios_ctl04_lblPonderacion"
+    },
+    "item4": {
+      "nombre": "grvCriterios_ctl05_lblNombreCriterio",
+      "observacion": "grvCriterios_ctl05_lblObservaciones",
+      "ponderacion": "grvCriterios_ctl05_lblPonderacion"
+    },
+    "item5": {
+      "nombre": "grvCriterios_ctl06_lblNombreCriterio",
+      "observacion": "grvCriterios_ctl06_lblObservaciones",
+      "ponderacion": "grvCriterios_ctl06_lblPonderacion"
+    },
+    "item6": {
+      "nombre": "grvCriterios_ctl07_lblNombreCriterio",
+      "observacion": "grvCriterios_ctl07_lblObservaciones",
+      "ponderacion": "grvCriterios_ctl07_lblPonderacion"
+    }
+  },
+  "7": {
+    "estimacionEnBaseA": "lblFicha7Estimacion",
+    "fuenteDeFinanciamiento": "lblFicha7Financiamiento",
+    "contratoConRenovacion": "lblFicha7ContratoRenovacion",
+    "observaciones": "lblFicha7Observacion",
+    "tiempoDeContrato": "lblFicha7TiempoContrato",
+    "plazosDePago": "lblFicha7Plazos",
+    "opcionesDePago": "lblFicha7Opciones",
+    "nombreResponsableDePago": "lblFicha7NombreResponsablePago",
+    "emailRespondableDePago": "lblFicha7EmailResponsablePago",
+    "prohibicionDeSubcontratacion": "lblFicha7Subcontratacion"
+  },
+  "8": {
+    "beneficiario": "grvGarantias_ctl02_lblFicha8Beneficiario",
+    "fechaVencimiento": "grvGarantias_ctl02_lblFicha8FechaVencimiento",
+    "monto": "grvGarantias_ctl02_lblFicha8TipoMoneda",
+    "descripcion": "grvGarantias_ctl02_lblFicha8Descripcion",
+    "glosa": "grvGarantias_ctl02_lblFicha8Glosa",
+    "formaYOportunidadDeRestitucion": "grvGarantias_ctl02_lblFicha8Restitucion"
+  },
+  "9": {
+    "clausulaReadjudicacion": "lblFichaReadjudicacion",
+    "resolucionDeEmpates": "grvRequerimientosTecnicos_ctl02_lblDescripcion",
+    "mecanismoSolucionConsultas": "grvRequerimientosTecnicos_ctl03_lblDescripcion",
+    "acreditacionCumplimiento": "grvRequerimientosTecnicos_ctl04_lblDescripcion",
+    "presentacionAntecedentesOmitidos": "grvRequerimientosTecnicos_ctl05_lblDescripcion",
+    "pactoDeIntegridad": "grvRequerimientosTecnicos_ctl06_lblDescripcion"
+  }
+}
