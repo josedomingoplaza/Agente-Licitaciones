@@ -53,5 +53,5 @@ large_chunks = chunk_document_by_headings(full_document_text)
 for i, chunk in enumerate(large_chunks):
     print(f"--- CHUNK {i+1}: {chunk['heading']} ---")
     # Print the first 250 characters of the content for brevity
-    print(chunk['content'][:250] + "...")
+    print(chunk['content'][:1500] + "...")
     print("\n")

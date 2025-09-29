@@ -5,7 +5,7 @@ from webscraper import WebScraper
 with open("web_scraping/blueprints/mercado_publico.json", "r", encoding="utf-8") as f:
     blueprint = json.load(f)
 
-url = "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=cR1K+HlJLrGk9PeP2HSzsQ=="
+url = "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=sKUZzSlB2r97oKPV8dKA0w=="
 
 scraper = WebScraper(url, blueprint)
 result = scraper.scrape()
