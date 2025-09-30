@@ -165,3 +165,4 @@ if __name__ == "__main__":
         print(f"Category: {chunk.category}")
         print(f"Content: {chunk.content[:200]}...")
         print("\n")
+    print(chunks[3])
