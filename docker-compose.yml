@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  agente-licitaciones:
+    build: .
+    container_name: agente-licitaciones
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+    command: python embedding/chunker.py
