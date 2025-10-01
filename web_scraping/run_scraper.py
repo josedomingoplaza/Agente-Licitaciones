@@ -1,11 +1,11 @@
 import json
 import os
-from webscraper import WebScraper
+from web_scraping.webscraper import WebScraper
 
 with open("web_scraping/blueprints/mercado_publico.json", "r", encoding="utf-8") as f:
     blueprint = json.load(f)
 
-url = "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=cR1K+HlJLrGk9PeP2HSzsQ=="
+url = "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=ttspT8gPkNrc+uIDiVpveQ=="
 
 scraper = WebScraper(url, blueprint)
 result = scraper.scrape()
