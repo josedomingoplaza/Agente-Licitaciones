@@ -4,6 +4,8 @@ services:
   agente-licitaciones:
     build: .
     container_name: agente-licitaciones
+    stdin_open: true
+    tty: true
     env_file:
       - .env
     volumes:
