@@ -16,6 +16,7 @@ class Chunk:
     category: Optional[str] = None
     licitation_id: Optional[str] = None
     document_name: Optional[str] = None
+    embedding: Optional[List[float]] = None
 
 class Chunker:
     def __init__(self, 
