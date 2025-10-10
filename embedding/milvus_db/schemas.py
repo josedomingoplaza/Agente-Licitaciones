@@ -1,5 +1,7 @@
 from pymilvus import FieldSchema, CollectionSchema, DataType
 
+TEXT_MAX_LENGTH = 10000
+
 licitation_fields = [
     FieldSchema(
         name="id",
@@ -19,7 +21,7 @@ licitation_fields = [
     FieldSchema(
         name="text_content",
         dtype=DataType.VARCHAR,
-        max_length=4000,
+        max_length=TEXT_MAX_LENGTH,
         description="The original text content of the chunk"
     ),
 

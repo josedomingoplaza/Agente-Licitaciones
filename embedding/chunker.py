@@ -9,6 +9,17 @@ from sentence_transformers import SentenceTransformer
 import ollama
 from docling.document_converter import DocumentConverter
 
+STANDARD_CATEGORIES = [
+        "Alcance del Proyecto y Requisitos Técnicos",
+        "Información Financiera y Presupuestaria",
+        "Cláusulas Legales y Términos Contractuales",
+        "Plazos y Cronograma del Proyecto",
+        "Garantías y Fianzas Requeridas",
+        "Requisitos y Documentos de los Participantes",
+        "Criterios de Evaluación",
+        "Información Administrativa y General",
+    ]
+
 @dataclass
 class Chunk:
     heading: str

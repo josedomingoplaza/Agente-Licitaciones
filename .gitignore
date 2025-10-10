@@ -1,2 +1,5 @@
 .venv
 .env
+
+#for testing
+embedding/company_licitations/*.pdf

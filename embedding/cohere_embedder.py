@@ -83,7 +83,6 @@ class CohereEmbedder:
 
 
 if __name__ == "__main__":
-    # Quick local test: create a few Spanish chunks and embed them
     samples = [
         Chunk(heading="h1", content="Los perros corren en el parque"),
         Chunk(heading="h2", content="La tubería principal tiene una fuga"),
