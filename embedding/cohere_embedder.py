@@ -19,7 +19,7 @@ from embedding.chunker import Chunk
 
 class CohereEmbedder:
     def __init__(self, model: Optional[str] = None):
-        self.model = model or os.environ.get("COHERE_EMBED_MODEL") or "embed-multilingual-v2"
+        self.model = model or os.environ.get("COHERE_EMBED_MODEL") or "embed-v4.0"
         self.api_key = os.environ.get("COHERE_TRIAL_API_KEY")
         self.client = None
         if cohere is not None and self.api_key:
@@ -35,6 +35,7 @@ class CohereEmbedder:
 
         try:
             resp = self.client.embed(model=self.model, texts=list(texts))
+            print(f"Using model: {self.model}")
             return [list(map(float, vec)) for vec in resp.embeddings]
         except NotFoundError:
             try:
@@ -47,6 +48,17 @@ class CohereEmbedder:
                 return [self._fallback_embedding(t) for t in texts]
         except Exception:
             return [self._fallback_embedding(t) for t in texts]
+        
+    def embed_text(self, text: str, dim: Optional[int] = None) -> List[float]:
+        """Embed a single text and return its vector."""
+        vecs = self._embed_texts([text])
+        vec = np.array(vecs[0], dtype=np.float32)
+        if dim is not None:
+            if len(vec) < dim:
+                vec = np.concatenate([vec, np.zeros(dim - len(vec), dtype=np.float32)])
+            else:
+                vec = vec[:dim]
+        return vec.tolist()
 
     @staticmethod
     def _fallback_embedding(text: str, dim: int = 1024) -> List[float]:
@@ -83,14 +95,10 @@ class CohereEmbedder:
 
 
 if __name__ == "__main__":
-    samples = [
-        Chunk(heading="h1", content="Los perros corren en el parque"),
-        Chunk(heading="h2", content="La tubería principal tiene una fuga"),
-        Chunk(heading="h3", content="El presupuesto estimado es alto")
-    ]
 
-    emb = CohereEmbedder()
-    print(f"Using Cohere model: {emb.model}; client present: {emb.client is not None}")
-    res = emb.embed_chunks(samples, dim=1024)
-    for i, c in enumerate(res, 1):
-        print(f"Chunk {i}: heading={c.heading}, emb_len={len(c.embedding) if c.embedding else 0}, first5={c.embedding[:5] if c.embedding else None}")
+    embedder = CohereEmbedder()
+    text = "This is a dog"
+
+    embedded_text = embedder.embed_text(text)
+
+    print(f"type(embedded_text): {type(embedded_text)}")

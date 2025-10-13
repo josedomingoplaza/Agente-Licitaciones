@@ -3,3 +3,6 @@
 
 #for testing
 embedding/company_licitations/*.pdf
+volumes
+.volumes
+__pycache__/

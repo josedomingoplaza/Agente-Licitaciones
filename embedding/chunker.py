@@ -39,6 +39,7 @@ class Chunker:
         self.converter = DocumentConverter()
         self.embedder = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
         self.category_embeddings = self.embedder.encode(self.chunk_categories, convert_to_numpy=True)
+        self.ollama_client = ollama.Client(host="http://ollama:11434")
 
     
     def pdf_to_markdown(self, pdf_path: str) -> str:
@@ -99,7 +100,7 @@ class Chunker:
             """
         
         try:
-            response = ollama.chat(
+            response = self.ollama_client.chat(
                 model=self.model_name,
                 messages=[{'role': 'user', 'content': prompt}]
             )
