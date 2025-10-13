@@ -9,6 +9,17 @@ from sentence_transformers import SentenceTransformer
 import ollama
 from docling.document_converter import DocumentConverter
 
+STANDARD_CATEGORIES = [
+        "Alcance del Proyecto y Requisitos Técnicos",
+        "Información Financiera y Presupuestaria",
+        "Cláusulas Legales y Términos Contractuales",
+        "Plazos y Cronograma del Proyecto",
+        "Garantías y Fianzas Requeridas",
+        "Requisitos y Documentos de los Participantes",
+        "Criterios de Evaluación",
+        "Información Administrativa y General",
+    ]
+
 @dataclass
 class Chunk:
     heading: str
@@ -16,6 +27,7 @@ class Chunk:
     category: Optional[str] = None
     licitation_id: Optional[str] = None
     document_name: Optional[str] = None
+    embedding: Optional[List[float]] = None
 
 class Chunker:
     def __init__(self, 
@@ -27,6 +39,7 @@ class Chunker:
         self.converter = DocumentConverter()
         self.embedder = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
         self.category_embeddings = self.embedder.encode(self.chunk_categories, convert_to_numpy=True)
+        self.ollama_client = ollama.Client(host="http://ollama:11434")
 
     
     def pdf_to_markdown(self, pdf_path: str) -> str:
@@ -87,7 +100,7 @@ class Chunker:
             """
         
         try:
-            response = ollama.chat(
+            response = self.ollama_client.chat(
                 model=self.model_name,
                 messages=[{'role': 'user', 'content': prompt}]
             )
