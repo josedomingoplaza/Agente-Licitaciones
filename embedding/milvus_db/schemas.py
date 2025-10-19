@@ -1,6 +1,6 @@
 from pymilvus import FieldSchema, CollectionSchema, DataType
 
-TEXT_MAX_LENGTH = 10000
+TEXT_MAX_LENGTH = 20000
 
 licitation_fields = [
     FieldSchema(

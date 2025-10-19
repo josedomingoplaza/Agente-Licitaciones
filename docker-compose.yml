@@ -12,7 +12,7 @@ services:
       - .:/app
     depends_on:
       - milvus
-    command: python test_milvus_connection.py
+    command: 
     networks:
       - milvus
 
