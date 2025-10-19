@@ -9,6 +9,8 @@ from sentence_transformers import SentenceTransformer
 import ollama
 from docling.document_converter import DocumentConverter
 
+import spacy
+
 STANDARD_CATEGORIES = [
         "Alcance del Proyecto y Requisitos Técnicos",
         "Información Financiera y Presupuestaria",
@@ -40,8 +42,9 @@ class Chunker:
         self.embedder = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
         self.category_embeddings = self.embedder.encode(self.chunk_categories, convert_to_numpy=True)
         self.ollama_client = ollama.Client(host="http://ollama:11434")
+        self.nlp = spacy.load("es_core_news_sm")
 
-    
+
     def pdf_to_markdown(self, pdf_path: str) -> str:
         try:
             result = self.converter.convert(pdf_path)
@@ -49,35 +52,74 @@ class Chunker:
             return document.export_to_markdown()
         except Exception as e:
             print(f"Error converting PDF to Markdown: {e}")
-            return "" 
+            return ""
+        
+    def split_into_sentences(self, text: str) -> list[str]:
+        doc = self.nlp(text.replace("\n", " "))
+        return [sent.text.strip() for sent in doc.sents if sent.text.strip()]
+
+    def _handle_large_chunk(self, current_heading: str, content_str: str, max_chunk_length: int = 1000) -> List[Chunk]:
+        sentences = self.split_into_sentences(content_str)
+        chunks = []
+        temp_content = []
+
+        for sentence in sentences:
+            if len(" ".join(temp_content + [sentence])) <= max_chunk_length:
+                temp_content.append(sentence)
+            else:
+                if temp_content:
+                    chunks.append(Chunk(heading=current_heading, content=f"{current_heading}\n{" ".join(temp_content).strip()}"))
+                temp_content = [sentence]
+
+        if temp_content:
+            chunks.append(Chunk(heading=current_heading, content=f"{current_heading}\n{" ".join(temp_content).strip()}"))
+
+        return chunks
     
-    def _parse_markdown(self, markdown_text: str) -> List[Chunk]:
+    def _remove_index(self, markdown_text: str, scan_lines: int = 100) -> str:
+        lines = markdown_text.splitlines()
+        cleaned: List[str] = []
+        limit = min(scan_lines, len(lines))
+
+        for i, ln in enumerate(lines):
+            if i < limit:
+                if ln.count('.') > 3:
+                    continue
+                if ln.count('|') >= 2:
+                    continue
+            cleaned.append(ln)
+
+        return "\n".join(cleaned)
+
+    def _parse_markdown(self, markdown_text: str, max_chunk_length: int = 1000) -> List[Chunk]:
+        markdown_text = self._remove_index(markdown_text)
         lines = markdown_text.split('\n')
         chunks = []
         current_content = []
-        current_heading = "" 
+        current_heading = ""
 
         for line in lines:
             match = re.match(r'^(#+)\s+(.*)', line)
             if match:
                 if current_content:
-                    chunks.append(Chunk(
-                        heading=current_heading,
-                        content="\n".join(current_content).strip()
-                    ))
-                
+                    content_str = "\n".join(current_content).strip()
+                    content_str = f"{current_heading}\n{content_str}".strip()
+                    if len(content_str) > max_chunk_length:
+                        chunks.extend(self._handle_large_chunk(current_heading, content_str, max_chunk_length))
+                    else:
+                        chunks.append(Chunk(heading=current_heading, content=content_str))
                 current_heading = match.group(2).strip()
                 current_content = []
-            else:
-                if line.strip(): 
-                    current_content.append(line)
+            elif line.strip():
+                current_content.append(line)
 
         if current_content:
-            chunks.append(Chunk(
-                heading=current_heading,
-                content="\n".join(current_content).strip()
-            ))
-        
+            content_str = "\n".join(current_content).strip()
+            if len(content_str) > max_chunk_length:
+                chunks.extend(self._handle_large_chunk(current_heading, content_str, max_chunk_length))
+            else:
+                chunks.append(Chunk(heading=current_heading, content=content_str))
+
         return chunks
     
     def _classify_chunk(self, chunk: Chunk) -> str:
@@ -152,33 +194,31 @@ class Chunker:
         return [chunk.__dict__ for chunk in chunks]
 
 if __name__ == "__main__":
-    
-    STANDARD_CATEGORIES = [
-        "Alcance del Proyecto y Requisitos Técnicos",
-        "Información Financiera y Presupuestaria",
-        "Cláusulas Legales y Términos Contractuales",
-        "Plazos y Cronograma del Proyecto",
-        "Garantías y Fianzas Requeridas",
-        "Requisitos y Documentos de los Participantes",
-        "Criterios de Evaluación",
-        "Información Administrativa y General",
-    ]
-    
-    chunker = Chunker(categories=STANDARD_CATEGORIES)
-
-    pdf_file = "embedding/company_licitations/aguas_andinas.pdf"
-        
-    generated_chunks = chunker.generate_chunks(
-        pdf_path=pdf_file,
-        licitation_id="GS-TBL-2024-01",
-        document_name="Bases Especiales TBL"
+    import pprint
+    # Hardcoded markdown with headings and large paragraphs
+    markdown_text = (
+        "# Introduction\n"
+        "This is a short intro paragraph.\n\n"
+        "## Section One\n"
+        "This is a very long paragraph. " + "A" * 1200 + "\n\n"
+        "This is another paragraph. " + "B" * 900 + "\n\n"
+        "Short para.\n\n"
+        "## Section Two\n"
+        "Small para.\n\n"
+        "Big para. " + "C" * 1500 + "\n\n"
+        "# Conclusion\n"
+        "Final thoughts.\n"
     )
 
-    # Print the results for verification
-    print("\n--- RESULTS ---")
-    for i, chunk in enumerate(generated_chunks):
-        print(f"\n--- CHUNK {i+1} ---")
-        print(f"Licitacion ID: {chunk.licitation_id}")
-        print(f"Heading: {chunk.heading}")
-        print(f"Assigned Category: {chunk.category}")
-        print(f"Content Preview: {chunk.content[:250].strip()}...")
+    chunker = Chunker(categories=STANDARD_CATEGORIES)
+    chunks = chunker._parse_markdown(markdown_text, max_chunk_length=1000)
+    print(f"Total chunks: {len(chunks)}")
+    for i, chunk in enumerate(chunks):
+        print(f"\nChunk {i+1}:")
+        pprint.pprint({
+            'heading': chunk.heading,
+            'content_length': len(chunk.content),
+            'content_preview': chunk.content[:80] + ('...' if len(chunk.content) > 80 else ''),
+        })
+    
+   

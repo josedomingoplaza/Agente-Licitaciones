@@ -16,6 +16,4 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-RUN python -m spacy download es_core_news_sm
-
-CMD ["python", "embedding/chunker.py"]
+CMD ["sh"]
