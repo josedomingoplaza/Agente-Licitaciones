@@ -22,11 +22,13 @@ class CohereEmbedder:
         self.model = model or os.environ.get("COHERE_EMBED_MODEL") or "embed-v4.0"
         self.api_key = os.environ.get("COHERE_TRIAL_API_KEY")
         self.client = None
+        self.dimension = 1536
         if cohere is not None and self.api_key:
             try:
                 self.client = cohere.Client(self.api_key)
             except Exception:
                 self.client = None
+        print(f"Initialized CohereEmbedder with model: {self.model}")
 
     def _embed_texts(self, texts: Sequence[str]) -> List[List[float]]:
         if self.client is None:
@@ -61,7 +63,7 @@ class CohereEmbedder:
         return vec.tolist()
 
     @staticmethod
-    def _fallback_embedding(text: str, dim: int = 1024) -> List[float]:
+    def _fallback_embedding(text: str, dim: int = 1536) -> List[float]:
         arr = [ord(c) % 256 for c in text]
         if len(arr) < dim:
             arr += [0] * (dim - len(arr))

@@ -91,15 +91,11 @@ class MercadoPublicoClient:
         return filtered
 
 if __name__ == "__main__":
-    # Load the saved JSON file for interactive use
-    with open(f"licitations_10102025.json", "r", encoding="utf-8") as f:
-        licitations_data = json.load(f)
-    print(f"Loaded {len(licitations_data)} licitations from licitations_10102025.json")
     import json
     client = MercadoPublicoClient()
     date = "10102025"  # ddmmaaaa
     
-    print(client.get_licitations_for_day(date, Estado.PUBLICADA))
+    print(client.get_licitation_by_code("3392-9-LE25"))
 
 
 

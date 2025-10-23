@@ -6,3 +6,8 @@ embedding/company_licitations/*.pdf
 volumes
 .volumes
 __pycache__/
+
+#Licitation storage
+licitation_filter/data
+licitation_filter/logs
+state/discoveredid_history.json

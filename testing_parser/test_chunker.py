@@ -3,7 +3,7 @@ import numpy as np
 
 chunker = Chunker(STANDARD_CATEGORIES)
 
-pdf_path = "embedding/company_licitations/(GS)  Bases_Especiales TBL (16-01-24).pdf"
+pdf_path = "embedding/company_licitations/BBTT Obras Anillos RCI Estanques_General_8Tks_ORE-23BB.O24 RevB2_opt.pdf"
 
 import os
 
