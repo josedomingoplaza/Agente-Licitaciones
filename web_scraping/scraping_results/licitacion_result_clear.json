@@ -1,0 +1,123 @@
+{
+  "1": {
+    "descripcion": "",
+    "tipo": "",
+    "etapas": ""
+  },
+  "2": {
+    "razonSocial": "",
+    "unidadDeCompra": "",
+    "rut": "",
+    "direccion": "",
+    "comuna": "",
+    "regionDeLicitacion": ""
+  },
+  "3": {},
+  "4": {
+    "documentosAdministrativos": null,
+    "documentosTecnicos": null,
+    "documentosEconomicos": null
+  },
+  "5": {
+    "personaNatural": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "documentosPersonaNatural": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "personaJuridica": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "documentosPersonaJuridica": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "6": {
+    "item1": {
+      "nombre": null,
+      "observacion": null,
+      "ponderacion": null
+    },
+    "item2": {
+      "nombre": null,
+      "observacion": null,
+      "ponderacion": null
+    },
+    "item3": {
+      "nombre": null,
+      "observacion": null,
+      "ponderacion": null
+    },
+    "item4": {
+      "nombre": null,
+      "observacion": null,
+      "ponderacion": null
+    },
+    "item5": {
+      "nombre": null,
+      "observacion": null,
+      "ponderacion": null
+    },
+    "item6": {
+      "nombre": null,
+      "observacion": null,
+      "ponderacion": null
+    }
+  },
+  "7": {
+    "estimacionEnBaseA": "",
+    "fuenteDeFinanciamiento": "",
+    "contratoConRenovacion": "",
+    "observaciones": "",
+    "tiempoDeContrato": "",
+    "plazosDePago": "",
+    "opcionesDePago": "",
+    "nombreResponsableDePago": "",
+    "emailRespondableDePago": "",
+    "prohibicionDeSubcontratacion": ""
+  },
+  "8": {
+    "beneficiario": null,
+    "fechaVencimiento": null,
+    "monto": null,
+    "descripcion": null,
+    "glosa": null,
+    "formaYOportunidadDeRestitucion": null
+  },
+  "9": {
+    "clausulaReadjudicacion": "",
+    "resolucionDeEmpates": null,
+    "mecanismoSolucionConsultas": null,
+    "acreditacionCumplimiento": null,
+    "presentacionAntecedentesOmitidos": null,
+    "pactoDeIntegridad": null
+  }
+}

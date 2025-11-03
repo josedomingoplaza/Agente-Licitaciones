@@ -51,11 +51,6 @@ products = [
 # ------------------------------
 
 def run_semantic_test():
-    
-    # 1. Initialize your embedder
-    # We don't pass a model, so it will use the defaults in your class
-    # (e.g., embed-v4.0, which will likely fail without 'input_type'
-    # and gracefully fall back to 'embed-english-v2.0' as you defined)
     embedder = CohereEmbedder()
     
     # Check if the client initialized correctly

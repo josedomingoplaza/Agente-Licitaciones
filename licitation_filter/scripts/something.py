@@ -1001,30 +1001,38 @@ Bearings and bushings and wheels and gears: 0.4402
 Tools and General Machinery: 0.4402
 Undergarments: 0.4402"""
 
-products = []
+products = {}
+product_names = set()
 for line in text.split("\n"):
     item, value = line.rsplit(": ", 1)
-    products.append(item)   
+    products[item.strip()] = {"score": float(value.strip())}
+
+for line in text.split("\n"):
+    item, value = line.rsplit(": ", 1)
+    product_names.add(item.strip())
+
+
 
 import csv
 codes = {}
 codes_list = []
+
 
 CSV_FILE_PATH = 'licitation_filter/UNGM_UNSPSC_21-Oct-2025. - UNSPSC.csv'  # Path to your CSV file
 
 with open(CSV_FILE_PATH, 'r', encoding='utf-8-sig') as f:
     reader = csv.reader(f)
     for i, row in enumerate(reader):
-        if row and row[-1].strip() in products:
-            codes[row[-1].strip()] = (row[-2].strip()) 
-            codes_list.append(int(row[-2].strip()))
+        if row and row[-1].strip() in product_names:
+            products[row[-1].strip()].update({"code": row[0].strip()})
 
 
-# Save only the list of codes to a JSON file
 import json
+from licitation_filter.utils.utils import save_json
 
-with open('licitation_filter/valid_codes.json', 'w', encoding='utf-8') as jf:
-    json.dump(codes_list, jf, ensure_ascii=False, indent=2)
+for i, product in enumerate(products.keys()):
+    if products[product].get("score") >= 0.495:
+        codes_list.append(products[product]["code"])
 
-print(f"Saved {len(products)} codes to licitation_filter/product_codes_only.json")
+save_json("licitation_filter/reference/unspsc_high_confidence_codes.json", codes_list)
 

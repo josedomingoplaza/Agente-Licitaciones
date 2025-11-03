@@ -1,22 +1,22 @@
 {
   "1": {
-    "descripcion": "ADQUISICIÓN DE EQUIPOS: KIT FORENSE PARA EL LABORATORIO DE CRIMINALÍSTICA REGIONAL VALPARAÍSO, DEL COMPLEJO POLICIAL VIÑA DEL MAR DE LA POLICÍA DE INVESTIGACIONES DE CHILE.",
-    "tipo": "Pública-Licitación Pública igual o superior a 100 UTM e inferior a 1.000 UTM (LE)",
+    "descripcion": "PP 613-2025 / AMPLIACIÓN CECOSF NORTE GRANDE",
+    "tipo": "Pública-Licitación Pública igual o superior a 1.000 UTM e inferior a 5.000 UTM (LP)",
     "etapas": "Una Etapa"
   },
   "2": {
-    "razonSocial": "POLICIA DE INVESTIGACIONES DE CHILE",
-    "unidadDeCompra": "LOGISTICA VALPARAISO",
-    "rut": "60.506.000-5",
-    "direccion": "Uruguay 174",
-    "comuna": "Valparaíso",
-    "regionDeLicitacion": "Región de Valparaíso"
+    "razonSocial": "I MUNICIPALIDAD VALDIVIA",
+    "unidadDeCompra": "SECPLAN-SALUD",
+    "rut": "69.200.100-1",
+    "direccion": "ARAUCO 642/ Liceo Santa María",
+    "comuna": "Valdivia",
+    "regionDeLicitacion": "Región de Los Ríos"
   },
   "3": {},
   "4": {
-    "documentosAdministrativos": "RESOLUCIÓN APRUEBA BASES",
-    "documentosTecnicos": "EDITABLES",
-    "documentosEconomicos": "COMISIÓN EVALUADORA, NO EXISTENCIA CM Y DISPONIBILIDAD"
+    "documentosAdministrativos": "DE ACUERDO A LO ESTABLECIDO EN LAS B.A.G. (PUNTO 4.1.1.).-//",
+    "documentosTecnicos": null,
+    "documentosEconomicos": "DE ACUERDO A LO ESTABLECIDO EN LAS B.A.G. (PUNTO 4.1.2.).-//"
   },
   "5": {
     "personaNatural": [
@@ -30,8 +30,8 @@
       "Registrar condenas asociadas a responsabilidad penal jurídica (incumplimiento artículo 10, Ley 20.393)."
     ],
     "documentosPersonaNatural": [
-      "- Fotocopia Legalizada de Cédula de Identidad",
-      "- Declaración jurada acreditando que no se encuentra afecto al art. 4 inciso 6 de la ley 19.886, en el cual se establece que \"ningún órgano de la administración del Estado podrá suscribir contratos administrativos de provisión de bienes y servicios con los funcionarios directivos del mismo órgano o empresa, ni con personas unidas a ellos por los vínculos de parentesco.\"",
+      null,
+      null,
       null,
       null,
       null,
@@ -50,11 +50,11 @@
       "Registrar condenas asociadas a responsabilidad penal jurídica (incumplimiento artículo 10, Ley 20.393)."
     ],
     "documentosPersonaJuridica": [
-      "- Fotocopia Legalizada del Rut de la Empresa",
-      "- Declaración jurada acreditando que no se encuentra afecto al art. 4 inciso 6 de la ley 19.886, en el cual se establece que \"ningún órgano de la administración del Estado podrá suscribir contratos administrativos de provisión de bienes y servicios con los funcionarios directivos del mismo órgano o empresa, ni con personas unidas a ellos por los vínculos de parentesco.\"",
-      "- Certificado de Vigencia de la Sociedad",
-      "-(1)Certificado de Boletín de Informes Comerciales",
-      "-(1)Certificado de Quiebras/Convenio Judicial",
+      null,
+      null,
+      null,
+      null,
+      null,
       null,
       null,
       null
@@ -62,59 +62,59 @@
   },
   "6": {
     "item1": {
-      "nombre": "Plazo de Entrega",
-      "observacion": "CONFORME A LO ESTABLECIDO EN LA TABLA DE PONDERACIÓN Y CRITERIOS DE EVALUACIÓN DE OFERTAS.",
-      "ponderacion": "30%"
-    },
-    "item2": {
-      "nombre": "Precio",
-      "observacion": "CONFORME A LO ESTABLECIDO EN LA TABLA DE PONDERACIÓN Y CRITERIOS DE EVALUACIÓN DE OFERTAS.",
-      "ponderacion": "57%"
-    },
-    "item3": {
-      "nombre": "Inclusión con Enfoque de Género",
-      "observacion": "CONFORME A LO ESTABLECIDO EN LA TABLA DE PONDERACIÓN Y CRITERIOS DE EVALUACIÓN DE OFERTAS.",
-      "ponderacion": "5%"
-    },
-    "item4": {
-      "nombre": "Cumplimiento de Programa de Integridad",
-      "observacion": "CONFORME A LO ESTABLECIDO EN LA TABLA DE PONDERACIÓN Y CRITERIOS DE EVALUACIÓN DE OFERTAS.",
+      "nombre": "PROGRAMA DE INTEGRIDAD",
+      "observacion": "DE ACUERDO A LO ESTABLECIDO EN EL PUNTO 6.1 (2da ETAPA) DE LAS BASES ADMINISTRATIVAS ESPECIALES.-",
       "ponderacion": "3%"
     },
+    "item2": {
+      "nombre": "OFERTA ECONOMICA",
+      "observacion": "DE ACUERDO A LO ESTABLECIDO EN EL PUNTO 6.1 (2da ETAPA) DE LAS BASES ADMINISTRATIVAS ESPECIALES.-",
+      "ponderacion": "80%"
+    },
+    "item3": {
+      "nombre": "PLAZO DE EJECUCIÓN DE LA OBRA",
+      "observacion": "DE ACUERDO A LO ESTABLECIDO EN EL PUNTO 6.1 (2da ETAPA) DE LAS BASES ADMINISTRATIVAS ESPECIALES.-",
+      "ponderacion": "4%"
+    },
+    "item4": {
+      "nombre": "CUMPLIMIENTO CONTRACTUAL ANTERIOR",
+      "observacion": "DE ACUERDO A LO ESTABLECIDO EN EL PUNTO 6.1 (2da ETAPA) DE LAS BASES ADMINISTRATIVAS ESPECIALES.-",
+      "ponderacion": "4%"
+    },
     "item5": {
-      "nombre": "Cumplimiento de los requisitos",
-      "observacion": "CONFORME A LO ESTABLECIDO EN LA TABLA DE PONDERACIÓN Y CRITERIOS DE EVALUACIÓN DE OFERTAS.",
-      "ponderacion": "5%"
+      "nombre": "CUMPLIMIENTO DE LOS REQUISITOS FORMALES",
+      "observacion": "DE ACUERDO A LO ESTABLECIDO EN EL PUNTO 6.1 (2da ETAPA) DE LAS BASES ADMINISTRATIVAS ESPECIALES.-",
+      "ponderacion": "2%"
     },
     "item6": {
-      "nombre": null,
-      "observacion": null,
-      "ponderacion": null
+      "nombre": "MANO DE OBRA LOCAL",
+      "observacion": "DE ACUERDO A LO ESTABLECIDO EN EL PUNTO 6.1 (2da ETAPA) DE LAS BASES ADMINISTRATIVAS ESPECIALES.-",
+      "ponderacion": "2%"
     }
   },
   "7": {
     "estimacionEnBaseA": "Presupuesto Disponible",
-    "fuenteDeFinanciamiento": "LEY DE PRESUPUESTOS: PROYECTOS DE INVERSIÓN",
+    "fuenteDeFinanciamiento": "I. MUNICIPALIDAD DE VALDIVIA",
     "contratoConRenovacion": "NO",
-    "observaciones": "Sin observaciones",
+    "observaciones": "LA OFERTA ECONOMICA NO PODRA SOBREPASAR EL MONTO DISPONIBLE SEÑALADO, DE LO CONTRARIO LA OFERTA QUEDARA FUERA DE BASES SEGÚN SE INDICA EN EL PUNTO NÚMERO 4 DE LAS B.A.E.",
     "tiempoDeContrato": null,
     "plazosDePago": "30 días contra la recepción conforme de la factura",
-    "opcionesDePago": "Transferencia Electrónica",
-    "nombreResponsableDePago": "JESSICA FARIAS ZAPATA",
-    "emailRespondableDePago": "JFARIAZF@INVESTIGACIONES.CL",
+    "opcionesDePago": "Transferencia Electrónica, Cheque",
+    "nombreResponsableDePago": "STEVEN YALE RUIZ",
+    "emailRespondableDePago": "syale@munivaldivia.cl",
     "prohibicionDeSubcontratacion": "Se permite subcontratación"
   },
   "8": {
-    "beneficiario": null,
-    "fechaVencimiento": null,
-    "monto": null,
-    "descripcion": null,
-    "glosa": null,
-    "formaYOportunidadDeRestitucion": null
+    "beneficiario": "ILUSTRE MUNICIPALIDAD DE VALDIVIA",
+    "fechaVencimiento": "30-11-2026",
+    "monto": "%",
+    "descripcion": "SEGÚN LO INDICADO EN EL PUNTO N° 18 DE LAS BASES ADMINISTRATIVAS ESPECIALES.-//",
+    "glosa": "\"EN GARANTIA DE FIEL Y OPORTUNO CUMPLIMIENTO DE CONTRATO Y OBLIGACIONES LABORALES, PROPUESTA PÚBLICA N° 613-2025 \" AMPLIACIÓN CECOSF NORTE GRANDE.-\"",
+    "formaYOportunidadDeRestitucion": "SEGÚN LO INDICADO EN EL PUNTO N° 18.7 DE LAS BASES ADMINISTRATIVAS ESPECIALES.-"
   },
   "9": {
     "clausulaReadjudicacion": null,
-    "resolucionDeEmpates": "CONFORME A LO ESTABLECIDO EN LAS BASES.",
+    "resolucionDeEmpates": "En caso que exista empate entre oferentes, el desempate se resolverá favoreciendo a quien presente el mayor puntaje en el criterioOFERTA ECONOMICA, de persistir el empate se definirá por el mayor puntaje en el criterioCONTRATACION DE SEGUROS, luego mayor puntaje en el criterioPLAZO DE EJECUCIÓN DE LA OBRA, luegoCUMPLIMIENTO CONTRACTUAL ANTERIOR, si continua el empatePROGRAMA INTEGRIDAD, luego el criterioMANO DE OBRA LOCALy finalmente mayor puntaje en el criterioCUMPLIMIENTO DE REQUISITOS FORMALES.-//",
     "mecanismoSolucionConsultas": null,
     "acreditacionCumplimiento": null,
     "presentacionAntecedentesOmitidos": null,

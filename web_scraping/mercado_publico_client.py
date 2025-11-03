@@ -89,13 +89,18 @@ class MercadoPublicoClient:
             if region not in prohibited_regions:
                 filtered.append(lic)
         return filtered
+    
+    def get_new_licitations_for_day(self, date: str, known_codes: set, estado: Enum = None):
+        licitations = self.get_licitations_for_day(date, estado)
+        new_licitations = [lic for lic in licitations if lic.get("CodigoExterno") not in known_codes]
+        return new_licitations
 
 if __name__ == "__main__":
     import json
     client = MercadoPublicoClient()
     date = "10102025"  # ddmmaaaa
     
-    print(client.get_licitation_by_code("3392-9-LE25"))
+    print(client.get_licitations_for_day(date, Estado.PUBLICADA))
 
 
 

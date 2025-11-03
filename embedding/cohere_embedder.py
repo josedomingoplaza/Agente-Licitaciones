@@ -52,14 +52,14 @@ class CohereEmbedder:
             return [self._fallback_embedding(t) for t in texts]
         
     def embed_text(self, text: str, dim: Optional[int] = None) -> List[float]:
-        """Embed a single text and return its vector."""
+        if dim is None:
+            dim = self.dimension
         vecs = self._embed_texts([text])
         vec = np.array(vecs[0], dtype=np.float32)
-        if dim is not None:
-            if len(vec) < dim:
-                vec = np.concatenate([vec, np.zeros(dim - len(vec), dtype=np.float32)])
-            else:
-                vec = vec[:dim]
+        if len(vec) < dim:
+            vec = np.concatenate([vec, np.zeros(dim - len(vec), dtype=np.float32)])
+        else:
+            vec = vec[:dim]
         return vec.tolist()
 
     @staticmethod
@@ -104,3 +104,5 @@ if __name__ == "__main__":
     embedded_text = embedder.embed_text(text)
 
     print(f"type(embedded_text): {type(embedded_text)}")
+    print(f"len(embedded_text): {len(embedded_text)}")
+    print(f"embedded_text[:10]: {embedded_text[:10]}")

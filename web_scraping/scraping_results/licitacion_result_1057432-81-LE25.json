@@ -1,0 +1,123 @@
+{
+  "1": {
+    "descripcion": "MANTENIMIENTO Y REPARACIÓN DSSC Y PROGRAMAS DE SALUD MENTAL.",
+    "tipo": "Pública-Licitación Pública igual o superior a 100 UTM e inferior a 1.000 UTM (LE)",
+    "etapas": "Una Etapa"
+  },
+  "2": {
+    "razonSocial": "SERVICIO DE SALUD CONCEPCION",
+    "unidadDeCompra": "Servicio de Salud  Concepción",
+    "rut": "61.607.100-9",
+    "direccion": "Ohiggins N°297",
+    "comuna": "Concepción",
+    "regionDeLicitacion": "Región del Biobío"
+  },
+  "3": {},
+  "4": {
+    "documentosAdministrativos": "a)\tFormulario 1: Declaración Jurada de Socios y Beneficiarios Finales.\r\nb)\tEn el caso de presentarse alguna oferta de Unión Temporal de Proveedores (UTP), se debe adjuntar Formulario N°3.\r\nc)\tFormulario 4: Declaración Jurada Programa de Integridad.\r\nd)\tFormulario 5: Datos para pago proveedor Ley 21.722.\r\ne)\tEl oferente deberá incluir en su oferta la información requerida en las declaraciones Juradas electrónicas del Mercado Publico.",
+    "documentosTecnicos": "a)\tLos oferentes deben indicar las características técnicas del producto en Formulario N°6 \"Listado global Materiales para reparación\", los materiales requeridos deben poseer características de alta calidad y duración, considerando su uso en las mantenciones.\r\nb)\tLa omisión de documentos técnicos y/o no cumplimiento de especificaciones técnicas, será causal de declarar ofertas inadmisibles.",
+    "documentosEconomicos": "a)\tEl proveedor deberá completar el Formulario N°2 Económico, el cual debe contener el valor IVA incluido, en cada ítem que se menciona en dicho Formulario, en caso de no entregar dicha información en forma completa, será causal de inadmisibilidad de la oferta.  \r\nb)\tEl precio que se indicará en el Portal Mercado Publico, corresponde al total neto y este debe coincidir con el señalado en el Formulario N°2, será el vigente para el periodo de entrega que se establece en la oferta.\r\nc)\tToda oferta que supere el presupuesto disponible se declarará inadmisible.\r\nd)\tSólo se aceptarán ofertas que coticen el 100% de los productos que se menciona en cada Línea, de lo contrario se declarará inadmisible la oferta."
+  },
+  "5": {
+    "personaNatural": [
+      "Haber sido condenado por cualquiera de los delitos de cohecho contemplados en el título V del Libro Segundo del Código Penal.",
+      "Registrar una o más deudas tributarias por un monto total superior a 500 UTM por más de un año, o superior a 200 UTM e inferior a 500 UTM por un período superior a 2 años, sin que exista un convenio de pago vigente. En caso de encontrarse pendiente juicio sobre la efectividad de la deuda, esta inhabilidad regirá una vez que se encuentre firme o ejecutoriada la respectiva resolución.",
+      "Registrar deudas previsionales o de salud por más de 12 meses por sus trabajadores dependientes, lo que se acreditará mediante certificado de la autoridad competente.",
+      "La presentación al Registro Nacional de Proveedores de uno o más documentos falsos, declarado así por sentencia judicial ejecutoriada.",
+      "Haber sido declarado en quiebra por resolución judicial ejecutoriada.",
+      "Haber sido eliminado o encontrarse suspendido del Registro Nacional de Proveedores por resolución fundada de la Dirección de Compras.",
+      "Haber sido condenado por prácticas antisindicales o infracción a los derechos fundamentales del trabajador.",
+      "Registrar condenas asociadas a responsabilidad penal jurídica (incumplimiento artículo 10, Ley 20.393)."
+    ],
+    "documentosPersonaNatural": [
+      "- Fotocopia Legalizada de Cédula de Identidad",
+      "- Declaración jurada acreditando que no se encuentra afecto al art. 4 inciso 6 de la ley 19.886, en el cual se establece que \"ningún órgano de la administración del Estado podrá suscribir contratos administrativos de provisión de bienes y servicios con los funcionarios directivos del mismo órgano o empresa, ni con personas unidas a ellos por los vínculos de parentesco.\"",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "personaJuridica": [
+      "Haber sido condenado por cualquiera de los delitos de cohecho contemplados en el título V del Libro Segundo del Código Penal.",
+      "Registrar una o más deudas tributarias por un monto total superior a 500 UTM por más de un año, o superior a 200 UTM e inferior a 500 UTM por un período superior a 2 años, sin que exista un convenio de pago vigente. En caso de encontrarse pendiente juicio sobre la efectividad de la deuda, esta inhabilidad regirá una vez que se encuentre firme o ejecutoriada la respectiva resolución.",
+      "Registrar deudas previsionales o de salud por más de 12 meses por sus trabajadores dependientes, lo que se acreditará mediante certificado de la autoridad competente.",
+      "La presentación al Registro Nacional de Proveedores de uno o más documentos falsos, declarado así por sentencia judicial ejecutoriada.",
+      "Haber sido declarado en quiebra por resolución judicial ejecutoriada.",
+      "Haber sido eliminado o encontrarse suspendido del Registro Nacional de Proveedores por resolución fundada de la Dirección de Compras.",
+      "Haber sido condenado por prácticas antisindicales o infracción a los derechos fundamentales del trabajador.",
+      "Registrar condenas asociadas a responsabilidad penal jurídica (incumplimiento artículo 10, Ley 20.393)."
+    ],
+    "documentosPersonaJuridica": [
+      "- Fotocopia Legalizada del Rut de la Empresa",
+      "- Declaración jurada acreditando que no se encuentra afecto al art. 4 inciso 6 de la ley 19.886, en el cual se establece que \"ningún órgano de la administración del Estado podrá suscribir contratos administrativos de provisión de bienes y servicios con los funcionarios directivos del mismo órgano o empresa, ni con personas unidas a ellos por los vínculos de parentesco.\"",
+      "- Certificado de Vigencia de la Sociedad",
+      "-(1)Certificado de Boletín de Informes Comerciales",
+      "-(1)Certificado de Quiebras/Convenio Judicial",
+      null,
+      null,
+      null
+    ]
+  },
+  "6": {
+    "item1": {
+      "nombre": "PRECIO",
+      "observacion": "Fórmula= (menor precio ofertado / precio evaluado) x factor x 100",
+      "ponderacion": "60%"
+    },
+    "item2": {
+      "nombre": "PLAZO DE ENTREGA",
+      "observacion": "(Plazo de entrega mínima ofrecida) / (Plazo de entrega ofertado) X FACTOR X 100",
+      "ponderacion": "20%"
+    },
+    "item3": {
+      "nombre": "PROGRAMAS DE INTEGRIDAD",
+      "observacion": "puntaje obtenido x 5%.",
+      "ponderacion": "5%"
+    },
+    "item4": {
+      "nombre": "COMPORTAMIENTO CONTRACTUAL ANTERIOR",
+      "observacion": "N° sanciones dentro de los últimos 2 años\t\r\n\r\nPuntaje\r\n0 sanciones\t100\r\nEntre 1 y 2 sanciones\t60\r\nEntre 3 y 5 sanciones\t30\r\nSobre 5 sanciones\t1\r\n\r\nFórmula de cálculo= puntaje obtenido x 10%",
+      "ponderacion": "10%"
+    },
+    "item5": {
+      "nombre": "CUMPLIMIENTO DE DOCUMENTACION Y Y REQUISITOS FORMA",
+      "observacion": "puntaje obtenido x ponderación",
+      "ponderacion": "5%"
+    },
+    "item6": {
+      "nombre": null,
+      "observacion": null,
+      "ponderacion": null
+    }
+  },
+  "7": {
+    "estimacionEnBaseA": "Presupuesto Disponible",
+    "fuenteDeFinanciamiento": "Servicio de Salud Concepcion",
+    "contratoConRenovacion": "NO",
+    "observaciones": "Sin observaciones",
+    "tiempoDeContrato": null,
+    "plazosDePago": "30 días contra la recepción conforme de la factura",
+    "opcionesDePago": "Transferencia Electrónica",
+    "nombreResponsableDePago": "Ivan Cruz Cruz",
+    "emailRespondableDePago": "icruz@ssconcepcion.cl",
+    "prohibicionDeSubcontratacion": "No permite subcontrataciónNo se permite subcontratación."
+  },
+  "8": {
+    "beneficiario": null,
+    "fechaVencimiento": null,
+    "monto": null,
+    "descripcion": null,
+    "glosa": null,
+    "formaYOportunidadDeRestitucion": null
+  },
+  "9": {
+    "clausulaReadjudicacion": "Si el respectivo adjudicatario se desiste de su oferta, no entrega los antecedentes legales para contratar y/o la garantía de fiel cumplimiento, no firma el contrato o no se inscribe en Chileproveedores en los plazos que se establecen en las presentes bases, la entidad licitante podrá dejar sin efecto la adjudicación y seleccionar al oferente que, de acuerdo al resultado de la evaluación le siga en puntaje, y así sucesivamente, a menos que, de acuerdo a los intereses del servicio, se estime conveniente declarar desierta la licitación.",
+    "resolucionDeEmpates": "El oferente declara que, por el sólo hecho de participar en la presente licitación, acepta expresamente el presente pacto de integridad, obligándose a cumplir con todas y cada una de las estipulaciones que contenidas el mismo, sin perjuicio de las que se señalen en el resto de las bases de licitación y demás documentos integrantes. Especialmente, el oferente acepta el suministrar toda la información y documentación que sea considerada necesaria y exigida de acuerdo a las presentes bases de licitación, asumiendo expresamente los siguientes compromisos:1.- El oferente se compromete a respetar los derechos fundamentales de sus trabajadores, entendiéndose por éstos los consagrados en la Constitución Política de la República en su artículo 19, números 1º, 4º, 5º, 6º, 12º, y 16º, en conformidad al artículo 485 del código del trabajo.  Asimismo, el oferente se compromete a respetar los derechos humanos, lo que significa que debe evitar dar lugar o contribuir a efectos adversos en los derechos humanos mediante sus actividades, productos o servicios, y subsanar esos efectos cuando se produzcan, de acuerdo a los Principios Rectores de Derechos Humanos y Empresas de Naciones Unidas.2.-El oferente se obliga a no ofrecer ni conceder, ni intentar ofrecer o conceder, sobornos, regalos, premios, dádivas o pagos, cualquiera fuese su tipo, naturaleza y/o monto, a ningún funcionario público en relación con su oferta, con el proceso de licitación pública, ni con la ejecución de él o los contratos que eventualmente se deriven de la misma, ni tampoco a ofrecerlas o concederlas a terceras personas que pudiesen influir directa o indirectamente en el proceso licitatorio, en su toma de decisiones o en la posterior adjudicación y ejecución del o los contratos que de ello se deriven.3.- El oferente se obliga a no intentar ni efectuar acuerdos o realizar negociaciones, actos o conductas que tengan por objeto influir o afectar de cualquier forma la libre competencia, cualquiera fuese la conducta o acto específico, y especialmente, aquellos acuerdos, negociaciones, actos o conductas de tipo o naturaleza colusiva, en cualquier de sus tipos o formas.4.- El oferente se obliga a revisar y verificar toda la información y documentación, que deba presentar para efectos del presente proceso licitatorio, tomando todas las medidas que sean necesarias para asegurar la veracidad, integridad, legalidad, consistencia, precisión y vigencia de la misma.\r\n5.- El oferente se obliga a ajustar su actuar y cumplir con los principios de legalidad, ética, moral, buenas costumbres y transparencia en el presente proceso licitatorio.\r\n6.- El oferente manifiesta, garantiza y acepta que conoce y respetará las reglas y condiciones establecidas en las bases de licitación, sus documentos integrantes y él o los contratos que de ellos se derivase.7.- El oferente se obliga y acepta asumir, las consecuencias y sanciones previstas en estas bases de licitación, así como en la legislación y normativa que sean aplicables a la misma.8.- El oferente reconoce y declara que la oferta presentada en el proceso licitatorio es una propuesta seria, con información fidedigna y en términos técnicos y económicos ajustados a la realidad, que aseguren la posibilidad de cumplir con la misma en las condiciones y oportunidad ofertadas.9.- El oferente se obliga a tomar todas las medidas que fuesen necesarias para que las obligaciones anteriormente señaladas sean asumidas y cabalmente cumplidas por sus empleados y/o dependientes y/o asesores y/o agentes y en general, todas las personas con que éste o éstos se relacionen directa o indirectamente en virtud o como efecto de la presente licitación, incluidos sus subcontratistas, haciéndose plenamente responsable de las consecuencias de su infracción, sin perjuicio de las responsabilidades individuales que también procediesen y/o fuesen determinadas por los organismos correspondientes.",
+    "mecanismoSolucionConsultas": null,
+    "acreditacionCumplimiento": null,
+    "presentacionAntecedentesOmitidos": null,
+    "pactoDeIntegridad": null
+  }
+}
