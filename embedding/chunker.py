@@ -11,6 +11,12 @@ from docling.document_converter import DocumentConverter
 
 import spacy
 
+from openai import OpenAI
+import dotenv
+import os
+dotenv.load_dotenv()
+api_key = os.environ.get("OPENAI_API_KEY")
+
 STANDARD_CATEGORIES = [
         "Alcance del Proyecto y Requisitos Técnicos",
         "Información Financiera y Presupuestaria",
@@ -20,6 +26,7 @@ STANDARD_CATEGORIES = [
         "Requisitos y Documentos de los Participantes",
         "Criterios de Evaluación",
         "Información Administrativa y General",
+        "Texto muy sucio para ser categorizado"
     ]
 
 @dataclass
@@ -43,7 +50,7 @@ class Chunker:
         self.category_embeddings = self.embedder.encode(self.chunk_categories, convert_to_numpy=True)
         self.ollama_client = ollama.Client(host="http://ollama:11434")
         self.nlp = spacy.load("es_core_news_sm")
-
+        self.openai_client = OpenAI()
 
     def pdf_to_markdown(self, pdf_path: str) -> str:
         try:
@@ -54,9 +61,20 @@ class Chunker:
             print(f"Error converting PDF to Markdown: {e}")
             return ""
         
+    def clean_document(self, text: str) -> str:
+        clean_text = text.replace("<!-- image -->", "").strip()
+        clean_text = clean_text.replace("-", "")
+        return clean_text
+
     def split_into_sentences(self, text: str) -> list[str]:
         doc = self.nlp(text.replace("\n", " "))
         return [sent.text.strip() for sent in doc.sents if sent.text.strip()]
+
+    def normalize_whitespace(self, text: str) -> str:
+        text = re.sub(r'[ \t]+', ' ', text)
+        text = '\n'.join(line.strip() for line in text.splitlines())
+        text = re.sub(r'\n{2,}', '\n\n', text)
+        return text.strip()
 
     def _handle_large_chunk(self, current_heading: str, content_str: str, max_chunk_length: int = 1000) -> List[Chunk]:
         sentences = self.split_into_sentences(content_str)
@@ -68,11 +86,25 @@ class Chunker:
                 temp_content.append(sentence)
             else:
                 if temp_content:
-                    chunks.append(Chunk(heading=current_heading, content=f"{current_heading}\n{" ".join(temp_content).strip()}"))
+                    temp_content_str = ' '.join(temp_content)
+                    temp_content_str = self.normalize_whitespace(temp_content_str)
+                    chunks.append(
+                        Chunk(
+                            heading=current_heading,
+                            content=f"{current_heading}\n{temp_content_str.strip()}"
+                        )
+                    )
                 temp_content = [sentence]
 
         if temp_content:
-            chunks.append(Chunk(heading=current_heading, content=f"{current_heading}\n{" ".join(temp_content).strip()}"))
+            temp_content_str = ' '.join(temp_content)
+            temp_content_str = self.normalize_whitespace(temp_content_str)
+            chunks.append(
+                Chunk(
+                    heading=current_heading,
+                    content=f"{current_heading}\n{temp_content_str.strip()}"
+                )
+            )
 
         return chunks
     
@@ -93,6 +125,7 @@ class Chunker:
 
     def _parse_markdown(self, markdown_text: str, max_chunk_length: int = 1000) -> List[Chunk]:
         markdown_text = self._remove_index(markdown_text)
+        markdown_text = self.clean_document(markdown_text)
         lines = markdown_text.split('\n')
         chunks = []
         current_content = []
@@ -123,11 +156,11 @@ class Chunker:
         return chunks
     
     def _classify_chunk(self, chunk: Chunk) -> str:
-        prompt = f"""
-            Eres un analista experto. Tu tarea es categorizar una sección de un documento de licitación.
+        instructions = """Eres un analista experto. Tu tarea es categorizar una sección de un documento de licitación.
             Basándote en el texto proporcionado (incluyendo el encabezado), clasifícalo en la única categoría más apropiada.
-            Tu respuesta debe ser SOLAMENTE UNA de las categorías de la lista.
-
+            Tu respuesta debe ser SOLAMENTE UNA de las categorías de la lista."""
+        
+        prompt = f"""
             Categorías: {', '.join(self.chunk_categories)}
 
             Texto a clasificar:
@@ -142,11 +175,13 @@ class Chunker:
             """
         
         try:
-            response = self.ollama_client.chat(
-                model=self.model_name,
-                messages=[{'role': 'user', 'content': prompt}]
+            response = self.openai_client.responses.create(
+                model="gpt-5-nano-2025-08-07",  
+                instructions= instructions, 
+                input=prompt,                
+                temperature=0.1
             )
-            category = response['message']['content'].strip()
+            category = response.output_text.strip()
             
             if category in self.chunk_categories:
                 return category
@@ -191,34 +226,32 @@ class Chunker:
         return chunks
     
     def export_chunks_to_dict(self, chunks: List[Chunk]) -> List[Dict]:
-        return [chunk.__dict__ for chunk in chunks]
+        return {i: chunk.__dict__ for i, chunk in enumerate(chunks)}
 
 if __name__ == "__main__":
-    import pprint
-    # Hardcoded markdown with headings and large paragraphs
-    markdown_text = (
-        "# Introduction\n"
-        "This is a short intro paragraph.\n\n"
-        "## Section One\n"
-        "This is a very long paragraph. " + "A" * 1200 + "\n\n"
-        "This is another paragraph. " + "B" * 900 + "\n\n"
-        "Short para.\n\n"
-        "## Section Two\n"
-        "Small para.\n\n"
-        "Big para. " + "C" * 1500 + "\n\n"
-        "# Conclusion\n"
-        "Final thoughts.\n"
-    )
+    # Chunk test
 
     chunker = Chunker(categories=STANDARD_CATEGORIES)
-    chunks = chunker._parse_markdown(markdown_text, max_chunk_length=1000)
-    print(f"Total chunks: {len(chunks)}")
-    for i, chunk in enumerate(chunks):
-        print(f"\nChunk {i+1}:")
-        pprint.pprint({
-            'heading': chunk.heading,
-            'content_length': len(chunk.content),
-            'content_preview': chunk.content[:80] + ('...' if len(chunk.content) > 80 else ''),
-        })
+    pdf_file = "embedding/company_licitations/Bases de Licitación EPC, DA31102530.pdf"
+
+    # markdown_text = chunker.pdf_to_markdown(pdf_file)
+    # markdown_text = chunker.clean_document(markdown_text)
+    # with open("embedding/clean_output_without_hyphens.md", "w", encoding="utf-8") as f:
+    #     f.write(markdown_text)
+
+    generated_chunks = chunker.generate_chunks(
+        pdf_path=pdf_file,
+        licitation_id="TEST-001",
+        document_name="Bases de Licitación EPC, DA31102530.pdf"
+    )
+
+    from licitation_filter.utils.utils import save_json
+    save_json("embedding/testin_whitespace_remover.json", chunker.export_chunks_to_dict(generated_chunks))
+
+    for c in generated_chunks:
+        print(f"Heading: {c.heading}")
+        print(f"Category: {c.category}")
+        print(f"Content Preview: {c.content[:100]}...")
+        print("-----")
     
    

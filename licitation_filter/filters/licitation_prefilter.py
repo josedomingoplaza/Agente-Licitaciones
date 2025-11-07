@@ -6,26 +6,35 @@ from web_scraping.mercado_publico_client import MercadoPublicoClient, Region
 class LicitationPreFilter:
     def __init__(self):
         script_dir = os.path.dirname(os.path.abspath(__file__))
-        valid_codes_path = os.path.join(script_dir, "../reference/all_unspc_codes.json")
+        valid_codes_path = os.path.join(script_dir, "../reference/valid_unspc_codes.json")
         all_codes_path = os.path.join(script_dir, "../reference/all_unspc_codes.json")
+        all_codes_and_products_path = os.path.join(script_dir, "../reference/all_codes_and_products.json")
 
         self.valid_codes = set()
         self.all_codes = set()
+        self.all_codes_and_products = {}
         self._load_valid_codes(valid_codes_path)
         self._load_all_codes(all_codes_path)
+        self._load_all_codes_and_products(all_codes_and_products_path)
         self.prohibited_regions = [Region.MAGALLANES, Region.LOS_LAGOS, Region.COQUIMBO]
 
     def _load_valid_codes(self, codes_path):
         if os.path.exists(codes_path):
-            self.valid_codes = load_json(codes_path, set())
+            self.valid_codes = set(load_json(codes_path, set()))
         else:
             print(f"Warning: Codes file {codes_path} does not exist.")
 
     def _load_all_codes(self, all_codes_path):
         if os.path.exists(all_codes_path):
-            self.all_codes = load_json(all_codes_path, set())
+            self.all_codes = set(load_json(all_codes_path, set()))
         else:
             print(f"Warning: All codes file {all_codes_path} does not exist.")
+
+    def _load_all_codes_and_products(self, all_codes_and_products_path):
+        if os.path.exists(all_codes_and_products_path):
+            self.all_codes_and_products = load_json(all_codes_and_products_path, dict())
+        else:
+            print(f"Warning: All codes and products file {all_codes_and_products_path} does not exist.")
 
     def get_licitation_product_codes(self, licitation):
         product_codes = set()
@@ -82,7 +91,28 @@ class LicitationPreFilter:
         if region in self.prohibited_regions:
             return False
         return True
+    
+    def register_code(self, code: int, product_name: str):
+        if code not in self.all_codes:
+            self.all_codes.add(code)
+            self.all_codes_and_products[code] = product_name
 
+            script_dir = os.path.dirname(os.path.abspath(__file__))
+            all_codes_path = os.path.join(script_dir, "../reference/all_unspc_codes.json")
+            all_codes_and_products_path = os.path.join(script_dir, "../reference/all_codes_and_products.json")
+
+            save_json(all_codes_path, list(self.all_codes))
+            save_json(all_codes_and_products_path, self.all_codes_and_products)
+
+    def register_code_as_valid(self, code: int):
+        if code not in self.valid_codes:
+            self.valid_codes.add(code)
+
+            script_dir = os.path.dirname(os.path.abspath(__file__))
+            valid_codes_path = os.path.join(script_dir, "../reference/valid_unspc_codes.json")
+
+            save_json(valid_codes_path, list(self.valid_codes))
+        
     
 if __name__ == "__main__":
 
@@ -91,8 +121,8 @@ if __name__ == "__main__":
 
     all_codes = licitation_prefilter.all_codes
     valid_codes = licitation_prefilter.valid_codes
-    for a in valid_codes:
-        print(a)
+
+    licitation_prefilter.register_code_as_valid(99999999)
 
 
     # print(len(all_codes))

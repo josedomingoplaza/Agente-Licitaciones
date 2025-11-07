@@ -86,7 +86,7 @@ class MilvusClient:
         collection.flush()
         return result
 
-    def search(self, collection_name: str, query_vector: list, limit: int = 5, expr: str | None = None, partition_names: list | None = None):
+    def search(self, collection_name: str, query_vector: list, limit: int = 5, filter_expression: str | None = None, partition_names: list | None = None):
         collection = Collection(name=collection_name)
         collection.load()
 
@@ -97,7 +97,7 @@ class MilvusClient:
             anns_field="embedding",
             param=search_params,
             limit=limit,
-            expr=expr,
+            expr=filter_expression,
             partition_names=partition_names,
             output_fields=["text_content", "category", "licitation_id", "document_name"]
         )

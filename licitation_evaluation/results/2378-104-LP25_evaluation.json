@@ -1,0 +1,6 @@
+{
+  "CodigoExterno": "2378-104-LP25",
+  "EvaluacionIndustria": "{\n  \"decision\": \"NO APTO\",\n  \"justificacion\": \"Checklist de criterios clave (nota rápida): 1) Industria objetivo – Agua (APR) presente, puede ser relevante; 2) Servicios de alto valor – no se evidencian FE, estudios de factibilidad, gestión de proyecto, dueño o soporte en contratos; 3) Tipo de contrato – suministro e instalación de medidores; no se especifica EPC ni ejecución de ingeniería de alto valor; 4) Integración/tecnología – se mencionan medidores RF y telemetría, pero sin alcance claro de integración SCADA u otros sistemas. Conclusión: la licitación es principalmente un suministro e instalación, sin evidencia suficiente de capacidades estratégicas en gestión de proyectos, FE/FACT o EPC. Requiere aclaraciones si se busca considerar servicios de consultoría/gestión de proyectos o integración de sistemas.\"\n}",
+  "Nombre": "SUMINISTRO E INST. DE MEDIDORES DE AGUA POTABLE",
+  "Descripcion": "Dicha propuesta tiene por objeto el suministro e instalación de 18 unidades de medidores de agua potable con radiofrecuencia para áreas verdes. Las instalaciones deberán cumplir con la reglamentación vigente."
+}

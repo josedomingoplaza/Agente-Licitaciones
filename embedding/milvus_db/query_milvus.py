@@ -8,15 +8,23 @@ embedder = CohereEmbedder()
 milvus_connection.connect()
 client = MilvusClient()
 
-# Semantic search loop
+filter_value = "Información Administrativa y General"
+filter_expression = f'category == "{filter_value}"'
+
 while True:
-	print("\nSemantic search: Enter a query to find relevant chunks.")
-	query_text = input("Enter your search query: ").strip()
-	if query_text:
-		query_vec = embedder.embed_text(query_text, dim=1024)
-		results = client.search(COLLECTION, query_vec, limit=5)
-		print("\nTop semantic search results:")
-		for idx, hit in enumerate(results[0] if isinstance(results[0], list) else results):
-			print(f"Result {idx+1}:")
-			print(hit)
-			print("---")
+    print("\nSemantic search: Enter a query to find relevant chunks.")
+    query_text = input("Enter your search query: ").strip()
+    if query_text:
+        query_vec = embedder.embed_text(query_text, dim=1024)
+        results = client.search(
+            collection_name=COLLECTION,
+            query_vector=query_vec,  # Milvus expects a list of vectors
+            limit=5,
+            filter_expression=filter_expression,  # Add any fields you want returned
+        )
+        print("\nTop semantic search results:")
+        for idx, hits in enumerate(results):
+            print(f"TopK results for query {idx+1}:")
+            for hit in hits:
+                print(hit)
+                print("---")

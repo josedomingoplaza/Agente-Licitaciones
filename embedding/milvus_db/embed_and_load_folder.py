@@ -7,7 +7,7 @@ import numpy as np
 import os
 
 COLLECTION = "licitations"
-PDF_FOLDER = "embedding/company_licitations"
+PDF_FOLDER = "embedding/buffer"
 
 embedder = CohereEmbedder()
 chunker = Chunker(categories=STANDARD_CATEGORIES)
