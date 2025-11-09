@@ -28,10 +28,6 @@ for i, filename in enumerate(os.listdir(licitations_path)):
 
         except Exception as e:
             evaluation = f"Error during evaluation: {e}"
-        
     
-
-
-
-licitations = []
+        print(f"Resultado guardado en: {os.path.join(results_path, f'{licitation.get('CodigoExterno')}_evaluation.json')}\n")
 

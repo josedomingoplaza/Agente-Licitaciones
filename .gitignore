@@ -11,3 +11,4 @@ __pycache__/
 licitation_filter/data
 licitation_filter/logs
 state/discoveredid_history.json
+licitation_evaluation/results

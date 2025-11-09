@@ -103,6 +103,8 @@ class IndustryEvaluator:
             "justificacion": "Aunque telecomunicaciones no es industria central, sí ofrecemos 'Zanjado Mecanizado' y 'Obras Civiles', lo que nos habilita a considerar esta oportunidad."
             }
             ```
+
+            Asegúrate de que el output tenga siempre el formato JSON indicado, sin texto adicional fuera del bloque JSON.
             """
         
         prompt = f"Descripcion: {licitation.get("Nombre", "")}: {licitation.get("Descripcion", "")}"
