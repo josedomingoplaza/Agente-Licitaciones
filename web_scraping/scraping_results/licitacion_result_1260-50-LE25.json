@@ -1,37 +1,37 @@
 {
   "1": {
-    "descripcion": "Adquisición de 5 Servidores para el Gobierno Regional Metropolitano",
-    "tipo": "Pública-Licitación Pública igual o superior a 100 UTM e inferior a 1.000 UTM (LE)",
-    "etapas": "Una Etapa"
+    "descripcion": "",
+    "tipo": "",
+    "etapas": ""
   },
   "2": {
-    "razonSocial": "GOBIERNO REGIONAL REGION METROPOLITANA",
-    "unidadDeCompra": "ADQUISICIONES - PROGRAMA 01",
-    "rut": "61.923.200-3",
-    "direccion": "Bandera N°46",
-    "comuna": "Santiago Centro",
-    "regionDeLicitacion": "Región Metropolitana de Santiago"
+    "razonSocial": "",
+    "unidadDeCompra": "",
+    "rut": "",
+    "direccion": "",
+    "comuna": "",
+    "regionDeLicitacion": ""
   },
   "3": {},
   "4": {
-    "documentosAdministrativos": "5.1.\tDocumentos Administrativos \r\n\r\nA.\tAnexo N° 1 “Formulario de Identificación del Oferente” \r\nB.\tAnexo N° 2 “Declaración Jurada Aceptación de Bases”.\r\nC.\tAnexo Nº 3 “Declaración de No Encontrarse Inhabilitado y/ o con Prohibición de Suscribir Contratos con el Estado”. (ESENCIAL)\r\nD.\tAnexo Nº 3-A: Declaración Jurada de Unión Temporal de Contratistas\r\nE.\tAnexo Nº 3-B: Acuerdo Unión Temporal de Proveedores. Documento público o privado que da cuenta de la Unión Temporal de Proveedores acorde a lo dispuesto en el artículo 67 del Reglamento de Compras Públicas (ESENCIAL).\r\nF.\tCódigo de Conducta donde conste el Pacto de Integridad",
-    "documentosTecnicos": "5.3.\tDocumentos Técnicos.\r\n\r\nA. Anexo Nº 4 “Tiempo de respuesta por fallas y tiempo de entrega de equipos”\r\nB. Anexo N° 5 “Propuesta técnica”. Completar de acuerdo a las especificaciones técnicas solicitadas y plazo de garantía expresado en meses. (ESENCIAL).",
-    "documentosEconomicos": "5.2.\tDocumentos Económicos \r\n\r\nA.\tAnexo N° 4 “Oferta Económica”. (ESENCIAL)"
+    "documentosAdministrativos": null,
+    "documentosTecnicos": null,
+    "documentosEconomicos": null
   },
   "5": {
     "personaNatural": [
-      "Haber sido condenado por cualquiera de los delitos de cohecho contemplados en el título V del Libro Segundo del Código Penal.",
-      "Registrar una o más deudas tributarias por un monto total superior a 500 UTM por más de un año, o superior a 200 UTM e inferior a 500 UTM por un período superior a 2 años, sin que exista un convenio de pago vigente. En caso de encontrarse pendiente juicio sobre la efectividad de la deuda, esta inhabilidad regirá una vez que se encuentre firme o ejecutoriada la respectiva resolución.",
-      "Registrar deudas previsionales o de salud por más de 12 meses por sus trabajadores dependientes, lo que se acreditará mediante certificado de la autoridad competente.",
-      "La presentación al Registro Nacional de Proveedores de uno o más documentos falsos, declarado así por sentencia judicial ejecutoriada.",
-      "Haber sido declarado en quiebra por resolución judicial ejecutoriada.",
-      "Haber sido eliminado o encontrarse suspendido del Registro Nacional de Proveedores por resolución fundada de la Dirección de Compras.",
-      "Haber sido condenado por prácticas antisindicales o infracción a los derechos fundamentales del trabajador.",
-      "Registrar condenas asociadas a responsabilidad penal jurídica (incumplimiento artículo 10, Ley 20.393)."
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
     ],
     "documentosPersonaNatural": [
-      "- Fotocopia Legalizada de Cédula de Identidad",
-      "- Declaración jurada acreditando que no se encuentra afecto al art. 4 inciso 6 de la ley 19.886, en el cual se establece que \"ningún órgano de la administración del Estado podrá suscribir contratos administrativos de provisión de bienes y servicios con los funcionarios directivos del mismo órgano o empresa, ni con personas unidas a ellos por los vínculos de parentesco.\"",
+      null,
+      null,
       null,
       null,
       null,
@@ -40,21 +40,21 @@
       null
     ],
     "personaJuridica": [
-      "Haber sido condenado por cualquiera de los delitos de cohecho contemplados en el título V del Libro Segundo del Código Penal.",
-      "Registrar una o más deudas tributarias por un monto total superior a 500 UTM por más de un año, o superior a 200 UTM e inferior a 500 UTM por un período superior a 2 años, sin que exista un convenio de pago vigente. En caso de encontrarse pendiente juicio sobre la efectividad de la deuda, esta inhabilidad regirá una vez que se encuentre firme o ejecutoriada la respectiva resolución.",
-      "Registrar deudas previsionales o de salud por más de 12 meses por sus trabajadores dependientes, lo que se acreditará mediante certificado de la autoridad competente.",
-      "La presentación al Registro Nacional de Proveedores de uno o más documentos falsos, declarado así por sentencia judicial ejecutoriada.",
-      "Haber sido declarado en quiebra por resolución judicial ejecutoriada.",
-      "Haber sido eliminado o encontrarse suspendido del Registro Nacional de Proveedores por resolución fundada de la Dirección de Compras.",
-      "Haber sido condenado por prácticas antisindicales o infracción a los derechos fundamentales del trabajador.",
-      "Registrar condenas asociadas a responsabilidad penal jurídica (incumplimiento artículo 10, Ley 20.393)."
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
     ],
     "documentosPersonaJuridica": [
-      "- Fotocopia Legalizada del Rut de la Empresa",
-      "- Declaración jurada acreditando que no se encuentra afecto al art. 4 inciso 6 de la ley 19.886, en el cual se establece que \"ningún órgano de la administración del Estado podrá suscribir contratos administrativos de provisión de bienes y servicios con los funcionarios directivos del mismo órgano o empresa, ni con personas unidas a ellos por los vínculos de parentesco.\"",
-      "- Certificado de Vigencia de la Sociedad",
-      "-(1)Certificado de Boletín de Informes Comerciales",
-      "-(1)Certificado de Quiebras/Convenio Judicial",
+      null,
+      null,
+      null,
+      null,
+      null,
       null,
       null,
       null
@@ -62,47 +62,47 @@
   },
   "6": {
     "item1": {
-      "nombre": "Precio",
-      "observacion": "A.\tOferta económica (OE = 29)\r\n\r\nLos precios ofertados se obtendrán del ANEXO Nº 4 “OFERTA ECONÓMICA”\r\n\r\nEn la evaluación de las ofertas se aplicará el “Análisis del mínimo costo”, donde se considerará la relación entre cada oferta y la de menor costo, ambas en pesos chilenos, según la siguiente fórmula de cálculo: \r\n\r\nOE = (Oferta mínima / oferta evaluada) x 29",
-      "ponderacion": "29%"
+      "nombre": null,
+      "observacion": null,
+      "ponderacion": null
     },
     "item2": {
-      "nombre": "Tiempo de respuesta por fallas de los equipos",
-      "observacion": "En la evaluación de las ofertas se aplicará el “Análisis del mínimo tiempo”, donde se considerará la relación entre cada oferta y la de menor tiempo, ambas expresadas en horas corridas desde la notificación de un problema según la siguiente fórmula de cálculo: \r\n \r\nTS = (Oferta mínima de tiempo de respuesta por fallas de los equipos/ oferta evaluada de tiempo de respuesta por fallas de los equipos) x 24\r\n\r\nEl tiempo se obtendrá del ANEXO Nº 5 “TIEMPO DE RESPUESTA POR FALLAS Y TIEMPO DE ENTREGA DE EQUIPOS”",
-      "ponderacion": "24%"
+      "nombre": null,
+      "observacion": null,
+      "ponderacion": null
     },
     "item3": {
-      "nombre": "Impacto Medioambiental",
-      "observacion": "F. Criterio Medioambiental (CM=2)\r\n\r\nEl oferente deberá presentar un sello Energy Star -o su equivalente-en producto ofertado.\r\n\r\nPacto de Integridad\tPTS\r\nOferente presenta sello energy Star en producto ofertado (o su equivalente).\t100\r\nOferente no presenta energy Star en producto ofertado (o su equivalente).\t0\r\n\r\nCM= PTS x 0.02",
-      "ponderacion": "2%"
+      "nombre": null,
+      "observacion": null,
+      "ponderacion": null
     },
     "item4": {
-      "nombre": "Plazo de Entrega",
-      "observacion": "C.\tTiempo de entrega (TE=20)\r\nLos Proponentes deben especificar claramente la cantidad de días necesarios para la entrega total de los productos ofertados contados desde el día siguiente a la fecha de Resolución totalmente tramitada que apruebe el contrato, o a la aceptación de la orden de compra, si procediere, que hace las veces de contrato, de acuerdo a lo establecido por la normativa vigente. En todo caso, el plazo no podrá exceder de 30 días corridos, de lo contrario, la oferta será considerada inadmisible y no podrá demorar menos de 10 días por considerarse una oferta arriesgada.\r\nEn la evaluación de las ofertas se aplicará el “Análisis del mínimo tiempo”, donde se considerará la relación entre cada oferta y la de menor tiempo, ambas expresadas en días corridos según la siguiente fórmula de cálculo:\r\nTE = (Oferta mínima de tiempo de entrega / oferta evaluada de tiempo de entrega) x 20",
-      "ponderacion": "20%"
+      "nombre": null,
+      "observacion": null,
+      "ponderacion": null
     },
     "item5": {
-      "nombre": "Calidad Técnica de los Bienes o Servicios",
-      "observacion": "D.\tRequerimientos técnicos (RT= 20)\r\n\r\nSe evaluará el cumplimiento íntegro de todas las especificaciones técnicas de los equipos requeridos. El cumplimiento se evaluará de acuerdo al Anexo N°6 donde las características técnicas de capacidades deben ser las mínimas detalladas. No se aceptarán ofertas con cumplimientos parciales del equipamiento, ni que entregue un plazo de garantía menor a 36 meses, todo de acuerdo a lo declarado en el Anexo N°6. \r\nLas ofertas deben ser igual o superior a lo indicado en cuadro técnico.\r\n\r\nCumplimiento técnico\tPTS\r\nOferente cumple con todos las características técnicas detalladas en el anexo 6\t100\r\nOferente NO cumple con una o más de las características técnicas detalladas en el anexo 6\t0\r\n\r\nOE = (Puntaje cumplimiento técnico) x 0,20",
-      "ponderacion": "20%"
+      "nombre": null,
+      "observacion": null,
+      "ponderacion": null
     },
     "item6": {
-      "nombre": "Cumplimiento de los requisitos",
-      "observacion": "G.\tCumplimiento de requisitos (CR=2)\r\n\r\nSerá determinado según si la Comisión Evaluadora requiere solicitar antecedentes adicionales o aclaraciones o complementar los antecedentes, vía “Foro inverso” del Portal.\r\n\r\nCumplimiento de Requisitos Formales\tPTS\r\nNo se le solicitan antecedentes no esenciales por foro inverso\t100\r\nSe le solicitan antecedentes no esenciales por foro inverso y oferente lo acompaña.\t50\r\nSe le solicitan antecedentes no esenciales por foro inverso y oferente no lo acompaña.\t0\r\nCUALQUIER ANTECEDENTE ESENCIAL QUE NO SE PRESENTE AL MOMENTO DE LA APERTURA DE PROPUESTAS SERA CAUSAL DE RECHAZO DE LA OFERTA EN DICHO ACTO\r\n\r\nDe este modo, el puntaje total del criterio Cumplimiento de Requisitos, se calculará de acuerdo a la siguiente formula: \r\n\r\nCR = PTS * 0,02",
-      "ponderacion": "2%"
+      "nombre": null,
+      "observacion": null,
+      "ponderacion": null
     }
   },
   "7": {
-    "estimacionEnBaseA": "Presupuesto Disponible",
-    "fuenteDeFinanciamiento": "Programa 01",
-    "contratoConRenovacion": "NO",
-    "observaciones": "Presupuesto disponible, impuesto incluido",
-    "tiempoDeContrato": null,
-    "plazosDePago": "30 días contra la recepción conforme de la factura",
-    "opcionesDePago": "Transferencia Electrónica",
-    "nombreResponsableDePago": "Rosa Garay Méndez",
-    "emailRespondableDePago": "rgaray@gobiernosantiago.cl",
-    "prohibicionDeSubcontratacion": "Se permite subcontratación"
+    "estimacionEnBaseA": "",
+    "fuenteDeFinanciamiento": "",
+    "contratoConRenovacion": "",
+    "observaciones": "",
+    "tiempoDeContrato": "",
+    "plazosDePago": "",
+    "opcionesDePago": "",
+    "nombreResponsableDePago": "",
+    "emailRespondableDePago": "",
+    "prohibicionDeSubcontratacion": ""
   },
   "8": {
     "beneficiario": null,
@@ -113,11 +113,11 @@
     "formaYOportunidadDeRestitucion": null
   },
   "9": {
-    "clausulaReadjudicacion": "Si el respectivo adjudicatario se desiste de su oferta, no entrega los antecedentes legales para contratar y/o la garantía de fiel cumplimiento, no firma el contrato o no se inscribe en Chileproveedores en los plazos que se establecen en las presentes bases, la entidad licitante podrá dejar sin efecto la adjudicación y seleccionar al oferente que, de acuerdo al resultado de la evaluación le siga en puntaje, y así sucesivamente, a menos que, de acuerdo a los intereses del servicio, se estime conveniente declarar desierta la licitación.",
-    "resolucionDeEmpates": "6.3.Criterio de DesempateEn caso de presentarse un empate entre 2 o más ofertas, se resolverá adjudicando al oferente que hubiese obtenido el mayor puntaje en el criterio “TE”.Si aplicando la fórmula anterior, aún persiste el empate entre oferentes, dicha situación se resolverá adjudicando al oferente que hubiese obtenido el mayor puntaje en el criterio “TS”.Si se mantiene el empate entre oferentes, dicha situación se resolverá adjudicando al oferente que hubiese obtenido el mayor puntaje en el criterio “OE”.Si aun así persiste el empate, se adjudicará a aquel proveedor que ingreso primero su oferta en el portal www.mercadopublico.cl.",
-    "mecanismoSolucionConsultas": "16.2.2Será obligatorio acompañar la documentación necesaria para acreditar el cumplimiento de remuneraciones o cotizaciones de seguridad social, en virtud de lo establecido en el inciso 1°, del artículo 4 de la ley N° 19.886, una vez definido al oferente a contratar, se verificarán los antecedentes laborales mediante un certificado de cumplimiento de las obligaciones laborales y previsionales expedido por la Dirección del Trabajo. Sin embargo, de contar con saldos insolutos de remuneraciones o cotizaciones de seguridad social con sus actuales trabajadores o con trabajadores contratados en los últimos dos años, los primeros estados de pago deberán ser destinados al pago de dichas obligaciones, debiendo la empresa acreditar que la totalidad de las obligaciones se encuentran liquidadas al cumplirse la mitad del período de ejecución del contrato, con un máximo de seis meses. El proveedor deberá proceder a dichos pagos, debiendo presentar los comprobantes y planillas que demuestren el total cumplimiento de la obligación. El incumplimiento de estas obligaciones por parte del proveedor dará derecho a dar por terminado el respectivo contrato, pudiendo materializarse la nueva contratación por la modalidad respectiva, de acuerdo a la normativa aplicable, y, al mérito, conveniencia y oportunidad de la Administración.",
-    "acreditacionCumplimiento": "12.PRESENTACIÓN DE ANTECEDENTES OMITIDOS POR LOS OFERENTES.12.1Si el oferente no adjunta una o más certificaciones o antecedentes que forman parte de los documentos no esenciales requeridos por el pliego de condiciones, la comisión evaluadora podrá solicitarla por foro inverso, a través del sistema de información, su incorporación, dándole un plazo breve y fatal para ese propósito.12.2Se aceptarán dichas certificaciones o antecedentes adjuntados en la respuesta del foro, siempre que se hayan producido u obtenido con anterioridad al vencimiento del plazo para presentar ofertas o se refieran a situaciones no mutables entre el vencimiento del plazo para presentar ofertas y el período de evaluación antes del cierre de recepción de las ofertas.12.3Solo se aceptarán a evaluación aquellos documentos entregados dentro del plazo, y que cumplan con lo señalado en el numeral anterior. Adjuntándose o no los antecedentes solicitados, entonces se procederá a evaluar de acuerdo a los criterios de ponderación contenidos en las bases administrativas especiales respectivas, entendiéndose además que debe aplicarse el puntaje que corresponde a la falta de cumplimiento de los antecedentes de la oferta, en el tenor de la forma expuesta en el criterio respectivo y de lo dispuesto en el artículo 56 del Reglamento.12.4En cualquier caso, la posibilidad de solicitar antecedentes omitidos por los oferentes es una facultad del Gobierno Regional Metropolitano de Santiago, y la comisión evaluadora, puede determinar expresa o tácitamente no hacer uso de ella, teniendo en cuenta los principios de la ley de compras públicas en su decisión.12.5La comisión evaluadora no podrá en ninguna circunstancia solicitar que se presenten documentos esenciales que deben estar presente al momento de la apertura de las ofertas en las fichas electrónicas, siendo plena responsabilidad de los proponentes el estudio de los antecedentes que componen las condiciones de la licitación. Si alguna de las ofertas no cuenta con alguno de los documentos determinados como esenciales por las bases administrativas especiales, dicha propuesta será objetada por la comisión, sugiriendo se declare la oferta en esta situación como “inadmisible”.",
-    "presentacionAntecedentesOmitidos": "9.PACTO DE INTEGRIDAD, PRÁCTICAS REÑIDAS CON LA PROBIDAD Y CONDUCTAS DE LAVADO Y BLANQUEO DE ACTIVOS.9.1El oferente declara que, por el sólo hecho de participar en la presente licitación, acepta expresamente el presente pacto de integridad, obligándose a cumplir con todas y cada una de las estipulaciones que están contenidas en el mismo, sin perjuicio de las que se señalen en el resto de las Bases de Licitación y demás documentos integrantes.9.2En concordancia con el artículo 17 del Decreto N°661, de 03 de junio de 2024, “los oferentes que contraten con las Entidades deberán acreditar la existencia de programas de integridad y ética empresarial, los cuales deben ser efectivamente conocidos y aplicados por su personal. Esta acreditación será considerada en un criterio de evaluación en las Bases de licitación”9.3Especialmente, el oferente acepta el suministrar toda la información y documentación que sea considerada necesaria y exigida de acuerdo a las presentes bases de licitación, asumiendo expresamente los siguientes compromisos:9.3.1El oferente se compromete a respetar los derechos fundamentales de sus trabajadores, entendiéndose por éstos los consagrados en la Constitución Política de la República en su artículo 19, números 1º, 4º, 5º, 6º, 12º, y 16º, en conformidad al artículo 485 del Código del Trabajo. Asimismo, el/la oferente se compromete a respetar los derechos humanos, lo que significa que debe evitar dar lugar o contribuir a efectos adversos en los derechos humanos mediante sus actividades, bienes o servicios, y subsanar esos efectos cuando se produzcan, de acuerdo con los Principios Rectores de Derechos Humanos y Empresas de Naciones Unidas.9.3.2El oferente se obliga a no ofrecer ni conceder, ni intentar ofrecer o conceder, sobornos, regalos, premios, dádivas o pagos, cualquiera fuese su tipo, naturaleza y/o monto, a ningún funcionario público en relación con su oferta, con el proceso de licitación pública, ni con la ejecución de él o los contratos que eventualmente se deriven de la misma, ni tampoco a ofrecerlas o concederlas a terceras personas que pudiesen influir directa o indirectamente en el proceso licitatorio, en su toma de decisiones o en la posterior adjudicación y ejecución del o los contratos que de ello se deriven.9.3.3El oferente se obliga a no intentar ni efectuar acuerdos o realizar negociaciones, actos o conductas que tengan por objeto influir o afectar de cualquier forma la libre competencia, cualquiera fuese la conducta o acto específico, y especialmente, aquellos acuerdos, negociaciones, actos o conductas de tipo o naturaleza colusiva, en cualquiera de sus tipos o formas.9.3.4El oferente se obliga a revisar y verificar toda la información y documentación, que deba presentar para efectos del presente proceso licitatorio, tomando todas las medidas que sean necesarias para asegurar la veracidad, integridad, legalidad, consistencia, precisión y vigencia de la misma.9.3.5El oferente se obliga a ajustar su actuar y cumplir con los principios de legalidad, ética, moral, buenas costumbres y transparencia en el proceso licitatorio.9.3.6El oferente manifiesta, garantiza y acepta que conoce y respetará las reglas y condiciones establecidas en las bases de licitación, sus documentos integrantes y él o los contratos que de ellos se derivasen.9.3.7El oferente se obliga y acepta asumir, las consecuencias y sanciones previstas en el pliego de condiciones, así como en la legislación y normativa que sean aplicables a la misma.9.3.8El oferente reconoce y declara que la oferta presentada en el proceso licitatorio es una propuesta seria, con información fidedigna, en términos técnicos y económicos ajustados al mercado, que aseguren la posibilidad de cumplir con la misma en las condiciones ofertadas.9.3.9El oferente se obliga a tomar todas las medidas que fuesen necesarias para que las obligaciones anteriormente señaladas sean asumidas y cabalmente cumplidas por sus empleados y/o dependientes y/o asesores y/o agentes y en general, todas las personas con que éste o éstos se relacionen directa o indirectamente en virtud o como efecto de la presente licitación, haciéndose plenamente responsable de las consecuencias de su infracción, sin perjuicio de las responsabilidades individuales que también procediesen y/o fuesen determinadas por los organismos correspondientes.9.3.10El oferente no podrá comunicarse con el funcionario responsable o cualquier funcionario que tenga información respecto de la licitación, si no es a través de lo establecido en el Sistema de Información.9.3.11Si algún proponente presenta información falsa, y se demuestra fehacientemente que así es, se entiende que incumple con el pacto de integridad, y en consecuencia, no cumple con las bases de licitación, lo que consecuencialmente traerá consigo el efecto de que la oferta sea declarada inadmisible. De la determinación de ello dará fe el acta de evaluación respectiva, otorgando prueba de los dichos de la comisión evaluadora, siendo, además, de existir, cobrada la garantía de seriedad de la oferta al proveedor que haya incurrido en dicha falta.9.4En el evento que se comprobare que el adjudicatario o diversos oferentes han incurrido en “prácticas corruptas”, “prácticas fraudulentas” o “prácticas colusorias” sea con respecto al proceso de selección o con respecto a la adjudicación, el mandante rechazará de plano la propuesta o la adjudicación o pondrá término al contrato anticipadamente, haciendo efectiva la garantía de fiel cumplimiento en forma administrativa, sin necesidad de resolución judicial previa. Para estos efectos, se entenderá por “práctica corrupta” todo ofrecimiento, propuesta o aceptación o solicitud de cualquier cosa de valor con el fin de influir en la actuación de un funcionario en el proceso de selección o en la ejecución del contrato. Por “práctica fraudulenta” toda tergiversación con el fin de influir en la ejecución de un contrato en perjuicio del mandante, y por “práctica colusoria”; sea con anterioridad o con posterioridad a la presentación de las ofertas, los acuerdos entre proveedores con el propósito de establecer precios a niveles artificiales y no competitivos que priven al mandante de las ventajas de la competencia libre y abierta.9.5El Gobierno Regional Metropolitano de Santiago, en su calidad de Órgano de la Administración del Estado, y en virtud de dispuesto en la Ley N° 19.913 que “Crea la Unidad de Análisis Financiero (UAF) y modifica diversas disposiciones en materia de lavado y blanqueo de activos”, está obligado a informar sobre operaciones sospechosas, que puedan estar dentro de la conducta tipificada como “Lavado de Activos”, “Financiamiento al Terrorismo” y/o “Delitos Funcionarios” que advierta en el ejercicio de sus funciones.En consecuencia, los participantes de esta licitación, deberán tener en cuenta que cualquier hecho que revista de características de conducta de “Lavado de Activos”, “Financiamiento al Terrorismo” y/o “Delitos Funcionarios”, en el tenor de lo dispuesto en la Ley N° 19.913, y de la forma en que lo determine la UAF, será informado de acuerdo a la norma a dicho Servicio Público.",
+    "clausulaReadjudicacion": "",
+    "resolucionDeEmpates": null,
+    "mecanismoSolucionConsultas": null,
+    "acreditacionCumplimiento": null,
+    "presentacionAntecedentesOmitidos": null,
     "pactoDeIntegridad": null
   }
 }

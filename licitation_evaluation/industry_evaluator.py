@@ -95,15 +95,6 @@ class IndustryEvaluator:
             }
             ```
 
-            ### Ejemplo de licitación APTA (Caso Límite)
-            Descripción: "Obras civiles y zanjado para proyecto de telecomunicaciones en Antofagasta."
-            ```json
-            {
-            "decision": "APTO",
-            "justificacion": "Aunque telecomunicaciones no es industria central, sí ofrecemos 'Zanjado Mecanizado' y 'Obras Civiles', lo que nos habilita a considerar esta oportunidad."
-            }
-            ```
-
             Asegúrate de que el output tenga siempre el formato JSON indicado, sin texto adicional fuera del bloque JSON.
             """
         

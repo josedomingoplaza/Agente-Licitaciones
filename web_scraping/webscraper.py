@@ -30,6 +30,3 @@ class WebScraper:
             output[section] = self.get_by_id_or_list(content)
         return output
     
-def get_new_licitations(old_licitations, new_licitations):
-    old_ids = {lic["CodigoExterno"] for lic in old_licitations.get("Listado", [])}
-    return [licitation for licitation in new_licitations.get("Listado", []) if licitation["CodigoExterno"] not in old_ids]
