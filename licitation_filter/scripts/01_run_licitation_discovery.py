@@ -1,5 +1,5 @@
 import time
-from licitation_filter.scripts.run_licitation_discovery import run_licitation_discovery
+from licitation_filter.scripts.licitation_discovery import run_licitation_discovery
 
 dates = ["05102025"]
 

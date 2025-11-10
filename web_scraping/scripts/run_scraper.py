@@ -17,13 +17,6 @@ scraper = WebScraper(blueprint)
 
 print("Starting scrape...")
 result = scraper.scrape(codigo_externo)
-print("Otro")
-result = scraper.scrape(codigo_externo)
-print("Otro")
-result = scraper.scrape(codigo_externo)
-print("Otro")
-result = scraper.scrape(codigo_externo)
-print("Otro")
 output_path = config.PROJECT_ROOT / "web_scraping" / "scraping_results" / f"licitacion_result_{codigo_externo}.json"
 save_json(output_path, result)
 

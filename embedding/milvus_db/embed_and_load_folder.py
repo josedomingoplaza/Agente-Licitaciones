@@ -1,28 +1,25 @@
-from pymilvus import Collection
+import config
 from embedding.chunker import Chunker, STANDARD_CATEGORIES
 from embedding.cohere_embedder import CohereEmbedder
 from embedding.milvus_db.connection import milvus_connection
 from embedding.milvus_db.client import MilvusClient
-import numpy as np
 import os
 
 COLLECTION = "licitations"
-PDF_FOLDER = "embedding/buffer"
+pdf_directory = config.PROJECT_ROOT / "embedding" / "buffer"
 
 embedder = CohereEmbedder()
 chunker = Chunker(categories=STANDARD_CATEGORIES)
 milvus_connection.connect()
 client = MilvusClient()
 
-# Create collection if not exists
 collection = client.create_licitation_collection(COLLECTION)
 print('Collection ready:', collection.name)
 
-# Iterate through all PDFs in the folder
-doc_files = [f for f in os.listdir(PDF_FOLDER) if f.lower().endswith('.pdf')]
+doc_files = [f for f in os.listdir(pdf_directory) if f.lower().endswith('.pdf')]
 all_chunks = []
 for pdf_file in doc_files:
-    pdf_path = os.path.join(PDF_FOLDER, pdf_file)
+    pdf_path = os.path.join(pdf_directory, pdf_file)
     print(f"Processing: {pdf_file}")
     licitation_id = os.path.splitext(pdf_file)[0]
     document_name = pdf_file
@@ -39,7 +36,6 @@ for pdf_file in doc_files:
     except Exception as e:
         print(f"Error processing {pdf_file}: {e}")
 
-# Prepare payload for Milvus
 chunks_payload = []
 for c in all_chunks:
     chunks_payload.append({
@@ -54,7 +50,6 @@ for c in all_chunks:
 res = client.insert_chunks(COLLECTION, chunks_payload)
 print('Insert result:', res)
 
-# Semantic search loop
 while True:
     print("\nSemantic search: Enter a query to find relevant chunks.")
     query_text = input("Enter your search query: ").strip()

@@ -1,3 +1,5 @@
+import config
+
 import re
 from typing import List, Dict, Optional
 from dataclasses import dataclass
@@ -14,6 +16,7 @@ import spacy
 from openai import OpenAI
 import dotenv
 import os
+from pathlib import Path
 dotenv.load_dotenv()
 api_key = os.environ.get("OPENAI_API_KEY")
 
@@ -179,7 +182,6 @@ class Chunker:
                 model="gpt-5-nano-2025-08-07",  
                 instructions= instructions, 
                 input=prompt,                
-                temperature=0.1
             )
             category = response.output_text.strip()
             
@@ -228,30 +230,4 @@ class Chunker:
     def export_chunks_to_dict(self, chunks: List[Chunk]) -> List[Dict]:
         return {i: chunk.__dict__ for i, chunk in enumerate(chunks)}
 
-if __name__ == "__main__":
-    # Chunk test
-
-    chunker = Chunker(categories=STANDARD_CATEGORIES)
-    pdf_file = "embedding/company_licitations/Bases de Licitación EPC, DA31102530.pdf"
-
-    # markdown_text = chunker.pdf_to_markdown(pdf_file)
-    # markdown_text = chunker.clean_document(markdown_text)
-    # with open("embedding/clean_output_without_hyphens.md", "w", encoding="utf-8") as f:
-    #     f.write(markdown_text)
-
-    generated_chunks = chunker.generate_chunks(
-        pdf_path=pdf_file,
-        licitation_id="TEST-001",
-        document_name="Bases de Licitación EPC, DA31102530.pdf"
-    )
-
-    from licitation_filter.utils.utils import save_json
-    save_json("embedding/testin_whitespace_remover.json", chunker.export_chunks_to_dict(generated_chunks))
-
-    for c in generated_chunks:
-        print(f"Heading: {c.heading}")
-        print(f"Category: {c.category}")
-        print(f"Content Preview: {c.content[:100]}...")
-        print("-----")
-    
    

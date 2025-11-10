@@ -1,26 +1,16 @@
-# milvus_db/client.py
-
 from pymilvus import Collection, utility
-from .connection import milvus_connection # Import our connection manager
-from .schemas import licitation_schema   # Import the schema you defined
+from .connection import milvus_connection
+from .schemas import licitation_schema   
 
 
 class MilvusClient:
-    """Client wrapper to create collections, insert and search.
-
-    Note: This class does not connect at import time. Call `milvus_connection.connect()`
-    from your startup code (or before instantiating) to avoid races with Milvus startup.
-    """
     def __init__(self):
-        # Do not auto-connect here; let the caller control connection timing.
         pass
 
     def create_licitation_collection(self, collection_name: str = "licitations") -> Collection:
-        """Create the licitations collection if it doesn't exist and ensure an index on the embedding."""
         if not utility.has_collection(collection_name):
             print(f"Creating collection: {collection_name}")
             collection = Collection(name=collection_name, schema=licitation_schema)
-            # create example partitions
             try:
                 collection.create_partition("won_projects")
             except Exception:
@@ -30,7 +20,6 @@ class MilvusClient:
             except Exception:
                 pass
 
-            # create an index on the embedding field if needed
             index_params = {
                 "index_type": "IVF_FLAT",
                 "metric_type": "L2",
@@ -39,7 +28,6 @@ class MilvusClient:
             try:
                 collection.create_index(field_name="embedding", index_params=index_params)
             except Exception:
-                # index may already exist or model not supported
                 pass
 
             collection.load()
@@ -50,18 +38,7 @@ class MilvusClient:
         return collection
 
     def insert_chunks(self, collection_name: str, chunks_data: list, partition_name: str | None = None):
-        """Insert chunks into the collection.
-
-        chunks_data should be an iterable of dicts with keys matching the schema:
-        - embedding (list[float])
-        - text_content (str)
-        - category (str)
-        - original_heading (str)
-        - licitation_id (str)
-        - document_name (str)
-        """
         collection = Collection(name=collection_name)
-        # Prepare columns in same order as schema fields (excluding auto id)
         embeddings = []
         texts = []
         categories = []
@@ -103,7 +80,3 @@ class MilvusClient:
         )
         return results
 
-# Usage (example):
-# from embedding.milvus_db.connection import milvus_connection
-# milvus_connection.connect()
-# client = MilvusClient()

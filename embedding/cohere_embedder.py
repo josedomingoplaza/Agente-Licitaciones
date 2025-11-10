@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import os
-from typing import List, Optional, Sequence, Union
+from typing import List, Optional, Sequence
 
 from dotenv import load_dotenv
 load_dotenv()

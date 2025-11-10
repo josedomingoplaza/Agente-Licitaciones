@@ -18,9 +18,9 @@ while True:
         query_vec = embedder.embed_text(query_text, dim=1024)
         results = client.search(
             collection_name=COLLECTION,
-            query_vector=query_vec,  # Milvus expects a list of vectors
+            query_vector=query_vec, 
             limit=5,
-            filter_expression=filter_expression,  # Add any fields you want returned
+            filter_expression=filter_expression, 
         )
         print("\nTop semantic search results:")
         for idx, hits in enumerate(results):

@@ -1,17 +1,17 @@
 import os
-import json
+from pathlib import Path
 import numpy as np
+import config
 from licitation_filter.utils.utils import load_json
 import matplotlib.pyplot as plt
 
-folder = "licitation_filter/data/complete_licitations/no_registered_codes"
-
+passed_licitations_directory = config.PROJECT_ROOT / "licitation_filter" / "data" / "complete_licitations" / "passed_filter"
 
 description_lengths = []
 
-for filename in os.listdir(folder):
+for filename in os.listdir(passed_licitations_directory):
     if filename.endswith(".json"):
-        filepath = os.path.join(folder, filename)
+        filepath = os.path.join(passed_licitations_directory, filename)
         licitation = load_json(filepath, {})
         description = licitation.get("Descripcion", "")
         if len(description) < 1000:
@@ -24,8 +24,6 @@ print(f"Standard deviation: {np.std(description_lengths)} characters")
 print(f"Max length: {max(description_lengths)} characters")
 print(f"Min length: {min(description_lengths)} characters")
 
-
-# Plot histogram
 plt.hist(description_lengths, bins=30, color='blue', alpha=0.7)
 plt.title("Histogram of 'Descripcion' Lengths")
 plt.xlabel("Length (characters)")

@@ -26,11 +26,8 @@ content = "Desempeño\nMatriz EPP (según especialidad)                         
 import re
 
 def normalize_whitespace(text: str) -> str:
-    # Replace multiple spaces/tabs with a single space
     text = re.sub(r'[ \t]+', ' ', text)
-    # Remove leading/trailing spaces on each line
     text = '\n'.join(line.strip() for line in text.splitlines())
-    # Optionally, collapse multiple blank lines to a single blank line
     text = re.sub(r'\n{2,}', '\n\n', text)
     return text.strip()
 
