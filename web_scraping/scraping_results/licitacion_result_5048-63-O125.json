@@ -1,22 +1,22 @@
 {
   "1": {
-    "descripcion": "",
-    "tipo": "",
-    "etapas": ""
+    "descripcion": "ANALIZAR LA CONVENIENCIA TÉCNICA, ECONÓMICA, SOCIAL, TERRITORIAL Y AMBIENTAL DE CONSTRUIR LA RUTA COSTERA ENTRE CALETA EL COBRE – CALETA COLOSO.",
+    "tipo": "Licitación Pública de Obra",
+    "etapas": "Dos Etapas"
   },
   "2": {
-    "razonSocial": "",
-    "unidadDeCompra": "",
-    "rut": "",
-    "direccion": "",
-    "comuna": "",
-    "regionDeLicitacion": ""
+    "razonSocial": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+    "unidadDeCompra": "Dirección de Vialidad - Nivel Central - Licitación de Obras",
+    "rut": "61.202.000-0",
+    "direccion": "Morandé 59 piso 2 oficina 217",
+    "comuna": "Santiago Centro",
+    "regionDeLicitacion": "Región de Antofagasta"
   },
   "3": {},
   "4": {
     "documentosAdministrativos": null,
-    "documentosTecnicos": null,
-    "documentosEconomicos": null
+    "documentosTecnicos": "De acuerdo al Artículo 34.3.2 “Contenido de la Propuesta Técnica” (licitación electrónica) de la Resolución DGOP N°19/2020.",
+    "documentosEconomicos": "De acuerdo al Artículo 34.3.3 “Contenido de la Propuesta Económica” (licitación electrónica) de la Resolución DGOP N°19/2020."
   },
   "5": {
     "personaNatural": [
@@ -90,19 +90,24 @@
       "nombre": null,
       "observacion": null,
       "ponderacion": null
+    },
+    "item7": {
+      "nombre": null,
+      "observacion": null,
+      "ponderacion": null
     }
   },
   "7": {
-    "estimacionEnBaseA": "",
-    "fuenteDeFinanciamiento": "",
-    "contratoConRenovacion": "",
-    "observaciones": "",
-    "tiempoDeContrato": "",
-    "plazosDePago": "",
-    "opcionesDePago": "",
-    "nombreResponsableDePago": "",
-    "emailRespondableDePago": "",
-    "prohibicionDeSubcontratacion": ""
+    "estimacionEnBaseA": null,
+    "fuenteDeFinanciamiento": null,
+    "contratoConRenovacion": null,
+    "observaciones": null,
+    "tiempoDeContrato": null,
+    "plazosDePago": null,
+    "opcionesDePago": null,
+    "nombreResponsableDePago": null,
+    "emailRespondableDePago": null,
+    "prohibicionDeSubcontratacion": null
   },
   "8": {
     "beneficiario": null,
@@ -113,7 +118,7 @@
     "formaYOportunidadDeRestitucion": null
   },
   "9": {
-    "clausulaReadjudicacion": "",
+    "clausulaReadjudicacion": null,
     "resolucionDeEmpates": null,
     "mecanismoSolucionConsultas": null,
     "acreditacionCumplimiento": null,

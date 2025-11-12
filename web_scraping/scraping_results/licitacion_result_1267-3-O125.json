@@ -1,0 +1,128 @@
+{
+  "1": {
+    "descripcion": "CONSTRUCCIÓN BORDE COSTERO ENTRE PLAYA EL DURAZNO Y CUEVA DEL PIRATA, QUINTERO, REGIÓN DE VALPARAÍSO, SEGUNDO LLAMADO\r\nEl presente contrato considera mejoramiento del paseo costero se fundamenta en la puesta de valor de las cualidades en cada lugar, en la pieza urbana de borde.\r\nLa longitud del paseo costero es de 1.830 ml, y su área es de 15.970 m2.\r\n•\tEl tramo Playa Urbana tiene una longitud de 450 metros.\r\n•\tEl tramo Parques tiene una longitud de 690 metros.\r\n•\tEl tramo Nativo tiene una longitud de 690 metros.\r\nSe diferencian tres tramos y dos momentos en sus extremos, que son las puertas: plaza urbana de acceso y remate Cueva del Pirata.",
+    "tipo": "Licitación Pública de Obra",
+    "etapas": "Dos Etapas"
+  },
+  "2": {
+    "razonSocial": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+    "unidadDeCompra": "Dirección de Obras Portuarias - Valparaiso",
+    "rut": "61.202.000-0",
+    "direccion": "Melgarejo 669, piso 14",
+    "comuna": "Valparaíso",
+    "regionDeLicitacion": "Región de Valparaíso"
+  },
+  "3": {},
+  "4": {
+    "documentosAdministrativos": null,
+    "documentosTecnicos": "FORMULARIO E GASTOS GENERALES \r\nFORMULARIO N2 CURRICULUM\r\nFORMULARIO N3 DECLARACION JURADA CONSORCIO\r\nFORMULARIO NF PROGRAMA OCUPACIONAL \r\nDECLARACION JURADA CONTRATISTAS RELACIONADOS \r\nDECLARACION DE CONFIRMING",
+    "documentosEconomicos": "FORMULARIO COTIZACION \r\nCARTA OFERTA \r\nFORMULARIO E APU\r\nFORMULARIO E GASTOS GENERALES"
+  },
+  "5": {
+    "personaNatural": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "documentosPersonaNatural": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "personaJuridica": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "documentosPersonaJuridica": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "6": {
+    "item1": {
+      "nombre": null,
+      "observacion": null,
+      "ponderacion": null
+    },
+    "item2": {
+      "nombre": null,
+      "observacion": null,
+      "ponderacion": null
+    },
+    "item3": {
+      "nombre": null,
+      "observacion": null,
+      "ponderacion": null
+    },
+    "item4": {
+      "nombre": null,
+      "observacion": null,
+      "ponderacion": null
+    },
+    "item5": {
+      "nombre": null,
+      "observacion": null,
+      "ponderacion": null
+    },
+    "item6": {
+      "nombre": null,
+      "observacion": null,
+      "ponderacion": null
+    },
+    "item7": {
+      "nombre": null,
+      "observacion": null,
+      "ponderacion": null
+    }
+  },
+  "7": {
+    "estimacionEnBaseA": null,
+    "fuenteDeFinanciamiento": null,
+    "contratoConRenovacion": null,
+    "observaciones": null,
+    "tiempoDeContrato": null,
+    "plazosDePago": null,
+    "opcionesDePago": null,
+    "nombreResponsableDePago": null,
+    "emailRespondableDePago": null,
+    "prohibicionDeSubcontratacion": null
+  },
+  "8": {
+    "beneficiario": null,
+    "fechaVencimiento": null,
+    "monto": null,
+    "descripcion": null,
+    "glosa": null,
+    "formaYOportunidadDeRestitucion": null
+  },
+  "9": {
+    "clausulaReadjudicacion": null,
+    "resolucionDeEmpates": null,
+    "mecanismoSolucionConsultas": null,
+    "acreditacionCumplimiento": null,
+    "presentacionAntecedentesOmitidos": null,
+    "pactoDeIntegridad": null
+  }
+}

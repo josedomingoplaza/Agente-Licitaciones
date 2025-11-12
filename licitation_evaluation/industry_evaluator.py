@@ -2,21 +2,24 @@ from openai import OpenAI
 import dotenv
 import os
 import json
+from licitation_evaluation.base_evaluator import BaseEvaluator
 dotenv.load_dotenv()
 
 api_key = os.environ.get("OPENAI_API_KEY")
 client = OpenAI()
 
-class IndustryEvaluator:
+class IndustryEvaluator(BaseEvaluator):
     def __init__(self):
-        self.client = OpenAI()
-        self.model = "gpt-5-nano-2025-08-07"
+        super().__init__()
+        self.instructions = ""
+        self._initialize_instructions()
 
-    def evaluate_industry(self, licitation: json) -> str:
-        instructions = """Developer: # Rol y Objetivo
+    def _initialize_instructions(self):
+        self.instructions = """Developer: # Rol y Objetivo
             Eres el Gerente de Proyectos Senior responsable principal de la evaluación de licitaciones para una empresa de Ingeniería, Procura y Construcción (EPC). Tu función es identificar las oportunidades relevantes y filtrar aquellas que no sean pertinentes para el crecimiento estratégico de la empresa.
 
             Debes analizar la descripción de una nueva licitación (incluyendo título, descripción, categorías, etc.) para determinar si el proyecto se ajusta a nuestras capacidades, industrias objetivo y servicios estratégicos.
+            Es muy importante que consideres que la descripción puede ser acotada y estar atento a que haya insinuaciones sobre el alcance del proyecto.
 
             Debes analizar solamente la descripción de la nueva licitación para determinar si el proyecto podría llegar a ajustarse a nuestras capacidades e industrias objetivo.
 
@@ -95,15 +98,40 @@ class IndustryEvaluator:
             }
             ```
 
-            Asegúrate de que el output tenga siempre el formato JSON indicado, sin texto adicional fuera del bloque JSON.
-            """
-        
-        prompt = f"Descripcion: {licitation.get("Nombre", "")}: {licitation.get("Descripcion", "")}"
+            Asegúrate de que el output tenga siempre el formato JSON indicado, sin texto adicional fuera del bloque JSON."""
+
+    def _get_data_from_licitation(self, licitation: json) -> str:
+        title = licitation.get("Nombre", "")
+        description = licitation.get("Descripcion", "")
+        data_str = f"Título: {title}\nDescripción: {description}"
+        return data_str
+    
+    def evaluate_licitation(self, licitation: json) -> str:
+        prompt = self._get_data_from_licitation(licitation)
 
         response = self.client.responses.create(
                 model=self.model,  
-                instructions= instructions, 
+                instructions=self.instructions, 
                 input=prompt,                
             )
 
         return response.output_text
+    
+if __name__ == "__main__":
+    evaluator = IndustryEvaluator()
+
+    import config
+    from utils.utils import load_json
+    import os
+
+    licitations_path = config.PROJECT_ROOT / "licitation_filter" / "data" / "complete_licitations" / "passed_filter"
+
+    for filename in os.listdir(licitations_path):
+        if filename.endswith(".json"):
+            licitation_path = licitations_path / filename
+            licitation = load_json(licitation_path, {})
+            print(f"Código Externo: {licitation.get('CodigoExterno')}")
+            print(f"Nombre: {licitation.get('Nombre')}")
+            print(f"Descripción: {licitation.get('Descripcion')}")
+            print(evaluator.evaluate_licitation(licitation))
+            print("--------------------------------------------------\n")

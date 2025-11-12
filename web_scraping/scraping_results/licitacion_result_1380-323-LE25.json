@@ -1,0 +1,128 @@
+{
+  "1": {
+    "descripcion": "Estas Bases de Licitación orientan, fijan y determinan las normas y procedimientos por las que deben regirse las Personas Naturales y Jurídicas interesadas en participar en el llamado a Propuesta Pública para la ADQUISICIÓN DE LIDOCAINA, para uso analgésico local en pacientes del Hospital Dr. Hernán Henríquez Aravena, en adelante: “El Hospital”.\r\nLas presentes Bases se refieren a las condiciones y características Técnicas requeridas para la “ADQUISICIÓN DE LIDOCAINA”, en adelante “El Medicamento”, por una vigencia de dieciocho 18 meses",
+    "tipo": "Pública-Licitación Pública igual o superior a 100 UTM e inferior a 1.000 UTM (LE)",
+    "etapas": "Una Etapa"
+  },
+  "2": {
+    "razonSocial": "HOSPITAL DOCTOR HERNAN HENRIQUEZ ARAVENA",
+    "unidadDeCompra": "HOSPITAL DOCTOR HERNAN HENRIQUEZ ARAVENA",
+    "rut": "61.602.232-6",
+    "direccion": "Manuel Montt 115",
+    "comuna": "Temuco",
+    "regionDeLicitacion": "Región de la Araucanía"
+  },
+  "3": {},
+  "4": {
+    "documentosAdministrativos": "-\tAnexo N°1A Identificación del Oferente, formulario que el oferente debe completar y firmar para efectos de lo señalado en el artículo 35 quáter de la Ley N° 19.886. (Requisito Formal).",
+    "documentosTecnicos": "-\tAnexo Nº2 Formulario de Especificaciones Técnicas (debe detallar N° Registro ISP y N° Resolución Sanitaria). Requisito formal).",
+    "documentosEconomicos": "-\tAnexo Nº 1 Formulario Carta Oferta, formulario que el Oferente debe completar y firmar (Requisito de Admisibilidad de la Oferta)."
+  },
+  "5": {
+    "personaNatural": [
+      "Haber sido condenado por cualquiera de los delitos de cohecho contemplados en el título V del Libro Segundo del Código Penal.",
+      "Registrar una o más deudas tributarias por un monto total superior a 500 UTM por más de un año, o superior a 200 UTM e inferior a 500 UTM por un período superior a 2 años, sin que exista un convenio de pago vigente. En caso de encontrarse pendiente juicio sobre la efectividad de la deuda, esta inhabilidad regirá una vez que se encuentre firme o ejecutoriada la respectiva resolución.",
+      "Registrar deudas previsionales o de salud por más de 12 meses por sus trabajadores dependientes, lo que se acreditará mediante certificado de la autoridad competente.",
+      "La presentación al Registro Nacional de Proveedores de uno o más documentos falsos, declarado así por sentencia judicial ejecutoriada.",
+      "Haber sido declarado en quiebra por resolución judicial ejecutoriada.",
+      "Haber sido eliminado o encontrarse suspendido del Registro Nacional de Proveedores por resolución fundada de la Dirección de Compras.",
+      "Haber sido condenado por prácticas antisindicales o infracción a los derechos fundamentales del trabajador.",
+      "Registrar condenas asociadas a responsabilidad penal jurídica (incumplimiento artículo 10, Ley 20.393)."
+    ],
+    "documentosPersonaNatural": [
+      "- Fotocopia Legalizada de Cédula de Identidad",
+      "- Declaración jurada acreditando que no se encuentra afecto al art. 4 inciso 6 de la ley 19.886, en el cual se establece que \"ningún órgano de la administración del Estado podrá suscribir contratos administrativos de provisión de bienes y servicios con los funcionarios directivos del mismo órgano o empresa, ni con personas unidas a ellos por los vínculos de parentesco.\"",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "personaJuridica": [
+      "Haber sido condenado por cualquiera de los delitos de cohecho contemplados en el título V del Libro Segundo del Código Penal.",
+      "Registrar una o más deudas tributarias por un monto total superior a 500 UTM por más de un año, o superior a 200 UTM e inferior a 500 UTM por un período superior a 2 años, sin que exista un convenio de pago vigente. En caso de encontrarse pendiente juicio sobre la efectividad de la deuda, esta inhabilidad regirá una vez que se encuentre firme o ejecutoriada la respectiva resolución.",
+      "Registrar deudas previsionales o de salud por más de 12 meses por sus trabajadores dependientes, lo que se acreditará mediante certificado de la autoridad competente.",
+      "La presentación al Registro Nacional de Proveedores de uno o más documentos falsos, declarado así por sentencia judicial ejecutoriada.",
+      "Haber sido declarado en quiebra por resolución judicial ejecutoriada.",
+      "Haber sido eliminado o encontrarse suspendido del Registro Nacional de Proveedores por resolución fundada de la Dirección de Compras.",
+      "Haber sido condenado por prácticas antisindicales o infracción a los derechos fundamentales del trabajador.",
+      "Registrar condenas asociadas a responsabilidad penal jurídica (incumplimiento artículo 10, Ley 20.393)."
+    ],
+    "documentosPersonaJuridica": [
+      "- Fotocopia Legalizada del Rut de la Empresa",
+      "- Declaración jurada acreditando que no se encuentra afecto al art. 4 inciso 6 de la ley 19.886, en el cual se establece que \"ningún órgano de la administración del Estado podrá suscribir contratos administrativos de provisión de bienes y servicios con los funcionarios directivos del mismo órgano o empresa, ni con personas unidas a ellos por los vínculos de parentesco.\"",
+      "- Certificado de Vigencia de la Sociedad",
+      "-(1)Certificado de Boletín de Informes Comerciales",
+      "-(1)Certificado de Quiebras/Convenio Judicial",
+      null,
+      null,
+      null
+    ]
+  },
+  "6": {
+    "item1": {
+      "nombre": "C) PRGRAMA DE INTEGRIDAD",
+      "observacion": "Segun pto n°9.8 item II de las Bases Administrativas.",
+      "ponderacion": "5%"
+    },
+    "item2": {
+      "nombre": "D) PRESENTACION ENTREGA DE ANTECEDENTES",
+      "observacion": "Segun pto n°9.8 item II de las Bases Administrativas.",
+      "ponderacion": "5%"
+    },
+    "item3": {
+      "nombre": "B) EVALUACION ESPECIFICACIONES TECNICAS",
+      "observacion": "Segun pto n°9.8 item II de las Bases Administrativas.",
+      "ponderacion": "10%"
+    },
+    "item4": {
+      "nombre": "A) EVALUACION ECONOMICA",
+      "observacion": "Segun pto n°9.8 item II de las Bases Administrativas.",
+      "ponderacion": "80%"
+    },
+    "item5": {
+      "nombre": null,
+      "observacion": null,
+      "ponderacion": null
+    },
+    "item6": {
+      "nombre": null,
+      "observacion": null,
+      "ponderacion": null
+    },
+    "item7": {
+      "nombre": null,
+      "observacion": null,
+      "ponderacion": null
+    }
+  },
+  "7": {
+    "estimacionEnBaseA": "Precio Referencial",
+    "fuenteDeFinanciamiento": "HOSPITAL DR HERNAN HENRIQUEZ ARAVENA",
+    "contratoConRenovacion": "SI",
+    "observaciones": "2.3.\tSi la oferta económica al ítemlínea es mayor que el de referencia, hasta un 30%, se analizara la situación, en su contexto, para determinar fundadamente si la o las ofertas son o no convenientes para el Hospital. De esto, se dejará constancia en el",
+    "tiempoDeContrato": "18 Meses",
+    "plazosDePago": "30 días contra la recepción conforme de la factura",
+    "opcionesDePago": "Transferencia Electrónica",
+    "nombreResponsableDePago": "EUGENIA ACUÑA MORALES",
+    "emailRespondableDePago": "eugenia.acuna@asur.cl",
+    "prohibicionDeSubcontratacion": "No permite subcontratación19.2\tEl Adjudicatario no podrá subcontratar, ceder ni transferir en forma alguna, total ni parcialmente, los derechos y obligaciones que nacen del desarrollo de esta licitación y del respectivo contrato que se celebre con el Hospital."
+  },
+  "8": {
+    "beneficiario": "HOSPITAL DR HERNAN HENRIQUEZ ARAVENA",
+    "fechaVencimiento": "18-11-2027",
+    "monto": "%",
+    "descripcion": "5.1.\tAl Adjudicatario, se le solicitará un Documento de Garantía por Fiel y Oportuno cumplimiento del contrato, que podrá ser Vale Vista, póliza de seguro electrónica, Boleta de Garantía o cualquier otra forma o documento que asegure el pago de la garantía de manera rápida y efectiva, pagaderos a la vista o Certificado de Fianza pagaderos al primer requerimiento, todas de carácter irrevocable, para asegurar el cumplimiento del mismo, por el 5% del monto total neto ofertado del adjudicatario; la cual podrá otorgarse mediante uno o varios instrumentos financieros de la misma naturaleza, que en conjunto representen el monto o porcentaje a caucionar; con fecha de vencimiento noventa (90) días corridos después del plazo de término del contrato.",
+    "glosa": "5.2.\tEste documento de garantía deberá contener la siguiente información: \r\n\r\nBeneficiario: Hospital Dr. Hernán Henríquez Aravena\r\nRut: 61.602.232-6\r\nNombre y Número de Propuesta Pública: Nº 430 del 2025    “ADQUISICIÓN DE LIDOCAINA”\r\nNúmero ID Portal:\r\nFecha de Vencimiento: día/mes/año\r\nMonto en Moneda Nacional (peso chileno)\r\nEn Glosa señalar o indicar que corresponde a Garantía por Fiel y Oportuno Cumplimiento del Contrato.",
+    "formaYOportunidadDeRestitucion": "5.8.\tEl documento de garantía por fiel y oportuno cumplimiento de contrato será devuelto al adjudicatario dentro de un plazo de diez (10) días hábiles, contados a partir de la finalización del periodo de vigencia del mencionado documento, conforme a lo establecido en las bases. Esta devolución será informada al proveedor mediante correo electrónico para su correcta gestión."
+  },
+  "9": {
+    "clausulaReadjudicacion": "10.10.\tEn caso de que el adjudicatario se desistiere de su oferta, no suscriba el contrato, incurre en alguna causal de inhabilidad legal para contratar con el Estado, no presente la garantía de fiel y oportuno cumplimiento de contrato o el “Certificado de antecedentes laborales y previsionales” F30 en los plazos establecidos en las presentes bases, no mantiene las condiciones originalmente ofertadas, producto de las cuales resultó adjudicado o si, mientras se realizan las gestiones precontractuales esto es, entre el plazo de adjudicación y la fecha de celebración del contrato, se verifica el incumplimiento del Pacto de Integridad por parte de éste, el Hospital podrá, junto con dejar sin efecto la adjudicación original y, dentro del plazo de 60 días corridos contados desde la publicación de la adjudicación original, adjudicar la licitación al oferente que le seguía en puntaje, o bien, a los que le sigan sucesivamente, según las readjudicaciones que se lleven a cabo en dicho plazo, siempre que dichas ofertas sean convenientes a los intereses del Hospital y se encuentren vigentes según lo señalado en el punto N°3.3, ítem III, de las bases administrativas. Asimismo, se hará efectiva la garantía por seriedad de la oferta como sanción por su incumplimiento.",
+    "resolucionDeEmpates": "1.1.En caso de que se produzca igualdad de puntaje entre dos o más Oferentes el Hospital dirimirá de la siguiente manera:Menor precio, y de persistir el empate;Mayor puntaje obtenido en la evaluación de especificaciones técnicas, y de persistir el empate;Mayor puntaje obtenido en el Programa de integridad, y de persistir el empate;Mayor puntaje obtenido en el Cumplimiento de entrega de antecedentes.1.2.Si aun así el empate se mantiene, se adjudicará al oferente que hubiese ingresado primero su oferta enwww.mercadopublico.cl, considerando fecha y hora.",
+    "mecanismoSolucionConsultas": "1.1.Los oferentes tendrán un plazo de tres (3) días hábiles contados desde la publicación de la resolución de adjudicación en el Sistema de Información, para realizar consultas sobre la adjudicación, a través del correo electrónicoerwin.contreras@redsalud.gov.cl, Jefe del Subdepartamento de Licitaciones del Departamento de Abastecimiento del Hospital y patricioa.carrasco@redsalud.gob.cl; cesar.vasquezq@redsalud.gob.cl (Jefes subrogantes del subdepartamento de licitaciones). El Hospital dispondrá del plazo de cinco (5) días hábiles para responder, contados desde el vencimiento del plazo para presentar estas consultas. Este plazo no afectará la vigencia de contratación.",
+    "acreditacionCumplimiento": "1.1.Las instituciones privadas, cualquiera sea su naturaleza, al momento de contratar con el Estado deberán acompañar un “Certificado de antecedentes laborales y previsionales” (F30) emitido por la Dirección del Trabajo, que certifique la inexistencia de saldos insolutos de remuneraciones o cotizaciones de seguridad social con sus actuales trabajadores o con trabajadores contratados en los últimos dos años. Dicho certificado deberá ser entregado a más tardar diez (10) días hábiles posteriores al de la Adjudicación realizada en el Portal Mercado Público, o posterior a los diez (10) días hábiles posteriores al envío del contrato por parte del Hospital. En caso de que la empresa que obtiene la licitación o celebre convenio registre saldos insolutos de remuneraciones o cotizaciones de seguridad social con sus actuales trabajadores o con trabajadores contratados en los últimos dos años, los primeros estados de pago producto del contrato licitado deberán ser destinados al pago de dichas obligaciones, debiendo la empresa acreditar que la totalidad de las obligaciones se encuentran liquidadas al cumplirse la mitad del período de ejecución del contrato, con un máximo de seis meses. El respectivo servicio deberá exigir que la empresa contratada proceda a dichos pagos y le presente los comprobantes y planillas que demuestren el total cumplimiento de la obligación. El incumplimiento de estas obligaciones por parte de la empresa contratada, dará derecho a dar por terminado el respectivo contrato, pudiendo llamarse a una nueva licitación en la que la empresa referida no podrá participar.",
+    "presentacionAntecedentesOmitidos": "1.1.Las ofertas serán evaluadas en igualdad de condiciones según los factores de evaluación establecidos en las presentes bases. Sin perjuicio de ello, las oferentes, al momento de postular, deben considerar lo dispuesto en la Circular N°50 de fecha 27.10.2022 del Servicio de Impuestos Internos, relativo a la clasificación de los servicios a prestar (afecto a IVA) y a su estructura societaria, los cuales, se tomarán en consideración al momento de la evaluación y posterior adjudicación (en los casos que corresponda).1.2.Subsanación de errores u omisiones formales:Una vez realizada la apertura electrónica de las ofertas, el Hospital podrá solicitar a los oferentes que salven errores u omisiones formales, siempre y cuando las rectificaciones de dichos vicios u omisiones no les confieran a esos oferentes una situación de privilegio respecto de los demás competidores, esto es, en tanto no se afecten los principios de estricta sujeción a las bases y de igualdad de los oferentes, y se informe de dicha solicitud al resto de los oferentes, a través del Sistema de Información www.mercadopublico.cl. No obstante, la subsanación de errores u omisiones formales no podrán reemplazar documentos exigidos como requisitos de admisibilidad ni rectificar omisiones o errores sustanciales que afecten la oferta.Para dicha subsanación se otorgará un plazo fatal de cuarenta y ocho (48) horas corridas, contadas desde su comunicación al oferente por parte de la entidad licitante, la que se informará a través del Sistema de información www.mercadopublico.cl; prorrogable una sola vez en las mismas condiciones. La responsabilidad de revisar oportunamente dicho sistema durante el período de evaluación recae exclusivamente en los respectivos oferentes.Lo dispuesto en esta cláusula se aplicará de acuerdo a los factores de evaluación establecidos en el punto 9.8 del presente apartado de las bases administrativas.1.3.Solicitud de certificaciones o antecedentes omitidosEl Hospital tiene la facultad de permitir la presentación de certificaciones o antecedentes que los oferentes hayan omitido presentar al momento de efectuar la oferta, siempre que dichas certificaciones o antecedentes se hayan producido u obtenido con anterioridad al vencimiento del plazo para presentar ofertas o se refieran a situaciones no mutables entre el vencimiento del plazo para presentar ofertas y el período de evaluación (Art. N° 56 del Decreto N° 661/24). Tratándose de certificaciones o antecedentes incompletos o no firmados por quien se exija en estas bases, se entenderán como no presentados oportunamente y podrá aplicarse lo dispuesto en esta cláusula. No obstante, lo anterior, no se aceptarán certificados que se encuentren en “trámite” o “no vigentes”. No obstante, la solicitud de certificaciones o antecedentes omitidos no podrán reemplazar documentos exigidos como requisitos de admisibilidad.Para dicha subsanación se otorgará un plazo fatal de cuarenta y ocho (48) horas corridas, contadas desde su comunicación al oferente por parte de la entidad licitante, la que se informará a través del Sistema de información www.mercadopublico.cl; prorrogable una sola vez en las mismas condiciones. La responsabilidad de revisar oportunamente dicho sistema durante el período de evaluación recae exclusivamente en los respectivos oferentes.Lo dispuesto en esta cláusula se aplicará de acuerdo a los factores de evaluación establecidos en el punto 9.8 del presente apartado de las bases administrativas.1.4.Todas las aclaraciones, preguntas y/o respuestas emitidas por el Hospital y los oferentes, formarán parte integrante de la licitación. Cabe señalar que la responsabilidad de revisar el “foro inverso”, disponible enhttp://www.mercadopublico.cl, a través del cual se solicitan los antecedentes y aclaraciones durante el periodo de evaluación, recae exclusivamente en los oferentes.",
+    "pactoDeIntegridad": "El oferente declara que, por el sólo hecho de participar en la presente licitación, acepta expresamente el presente pacto de integridad, obligándose a cumplir con todas y cada una de las estipulaciones que contenidas el mismo, sin perjuicio de las que se señalen en el resto de las bases de licitación y demás documentos integrantes. Especialmente, el oferente acepta el suministrar toda la información y documentación que sea considerada necesaria y exigida de acuerdo a las presentes bases de licitación, asumiendo expresamente los siguientes compromisos:1.- El oferente se compromete a respetar los derechos fundamentales de sus trabajadores, entendiéndose por éstos los consagrados en la Constitución Política de la República en su artículo 19, números 1º, 4º, 5º, 6º, 12º, y 16º, en conformidad al artículo 485 del código del trabajo.  Asimismo, el oferente se compromete a respetar los derechos humanos, lo que significa que debe evitar dar lugar o contribuir a efectos adversos en los derechos humanos mediante sus actividades, productos o servicios, y subsanar esos efectos cuando se produzcan, de acuerdo a los Principios Rectores de Derechos Humanos y Empresas de Naciones Unidas.2.-El oferente se obliga a no ofrecer ni conceder, ni intentar ofrecer o conceder, sobornos, regalos, premios, dádivas o pagos, cualquiera fuese su tipo, naturaleza y/o monto, a ningún funcionario público en relación con su oferta, con el proceso de licitación pública, ni con la ejecución de él o los contratos que eventualmente se deriven de la misma, ni tampoco a ofrecerlas o concederlas a terceras personas que pudiesen influir directa o indirectamente en el proceso licitatorio, en su toma de decisiones o en la posterior adjudicación y ejecución del o los contratos que de ello se deriven.3.- El oferente se obliga a no intentar ni efectuar acuerdos o realizar negociaciones, actos o conductas que tengan por objeto influir o afectar de cualquier forma la libre competencia, cualquiera fuese la conducta o acto específico, y especialmente, aquellos acuerdos, negociaciones, actos o conductas de tipo o naturaleza colusiva, en cualquier de sus tipos o formas.4.- El oferente se obliga a revisar y verificar toda la información y documentación, que deba presentar para efectos del presente proceso licitatorio, tomando todas las medidas que sean necesarias para asegurar la veracidad, integridad, legalidad, consistencia, precisión y vigencia de la misma.\r\n5.- El oferente se obliga a ajustar su actuar y cumplir con los principios de legalidad, ética, moral, buenas costumbres y transparencia en el presente proceso licitatorio.\r\n6.- El oferente manifiesta, garantiza y acepta que conoce y respetará las reglas y condiciones establecidas en las bases de licitación, sus documentos integrantes y él o los contratos que de ellos se derivase.7.- El oferente se obliga y acepta asumir, las consecuencias y sanciones previstas en estas bases de licitación, así como en la legislación y normativa que sean aplicables a la misma.8.- El oferente reconoce y declara que la oferta presentada en el proceso licitatorio es una propuesta seria, con información fidedigna y en términos técnicos y económicos ajustados a la realidad, que aseguren la posibilidad de cumplir con la misma en las condiciones y oportunidad ofertadas.9.- El oferente se obliga a tomar todas las medidas que fuesen necesarias para que las obligaciones anteriormente señaladas sean asumidas y cabalmente cumplidas por sus empleados y/o dependientes y/o asesores y/o agentes y en general, todas las personas con que éste o éstos se relacionen directa o indirectamente en virtud o como efecto de la presente licitación, incluidos sus subcontratistas, haciéndose plenamente responsable de las consecuencias de su infracción, sin perjuicio de las responsabilidades individuales que también procediesen y/o fuesen determinadas por los organismos correspondientes."
+  }
+}

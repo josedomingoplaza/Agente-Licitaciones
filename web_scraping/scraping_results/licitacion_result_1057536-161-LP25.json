@@ -1,0 +1,128 @@
+{
+  "1": {
+    "descripcion": "SUMINISTRO DE GASES CLINICOS PARA\r\nESTABLECIMIENTOS DE BAJA COMPLEJIDAD Y CESFAM DE LA RED DEL SERVICIO DE\r\nSALUD DEL RELONCAVI",
+    "tipo": "Pública-Licitación Pública igual o superior a 1.000 UTM e inferior a 5.000 UTM (LP)",
+    "etapas": "Una Etapa"
+  },
+  "2": {
+    "razonSocial": "SERVICIO SALUD DEL RELONCAVI",
+    "unidadDeCompra": "Servicio de Salud del Reloncaví",
+    "rut": "61.607.700-7",
+    "direccion": "ESMERALDA 269, PISO 5 POBL. ESMERALDA",
+    "comuna": "Puerto Montt",
+    "regionDeLicitacion": "Región de los Lagos"
+  },
+  "3": {},
+  "4": {
+    "documentosAdministrativos": "ANEXOS ADMINISTRATIVOS",
+    "documentosTecnicos": "ANEXOS TECNICOS",
+    "documentosEconomicos": "ANEXOS ECONOMICOS"
+  },
+  "5": {
+    "personaNatural": [
+      "Haber sido condenado por cualquiera de los delitos de cohecho contemplados en el título V del Libro Segundo del Código Penal.",
+      "Registrar una o más deudas tributarias por un monto total superior a 500 UTM por más de un año, o superior a 200 UTM e inferior a 500 UTM por un período superior a 2 años, sin que exista un convenio de pago vigente. En caso de encontrarse pendiente juicio sobre la efectividad de la deuda, esta inhabilidad regirá una vez que se encuentre firme o ejecutoriada la respectiva resolución.",
+      "Registrar deudas previsionales o de salud por más de 12 meses por sus trabajadores dependientes, lo que se acreditará mediante certificado de la autoridad competente.",
+      "La presentación al Registro Nacional de Proveedores de uno o más documentos falsos, declarado así por sentencia judicial ejecutoriada.",
+      "Haber sido declarado en quiebra por resolución judicial ejecutoriada.",
+      "Haber sido eliminado o encontrarse suspendido del Registro Nacional de Proveedores por resolución fundada de la Dirección de Compras.",
+      "Haber sido condenado por prácticas antisindicales o infracción a los derechos fundamentales del trabajador.",
+      "Registrar condenas asociadas a responsabilidad penal jurídica (incumplimiento artículo 10, Ley 20.393)."
+    ],
+    "documentosPersonaNatural": [
+      "- Fotocopia Legalizada de Cédula de Identidad",
+      "- Declaración jurada acreditando que no se encuentra afecto al art. 4 inciso 6 de la ley 19.886, en el cual se establece que \"ningún órgano de la administración del Estado podrá suscribir contratos administrativos de provisión de bienes y servicios con los funcionarios directivos del mismo órgano o empresa, ni con personas unidas a ellos por los vínculos de parentesco.\"",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "personaJuridica": [
+      "Haber sido condenado por cualquiera de los delitos de cohecho contemplados en el título V del Libro Segundo del Código Penal.",
+      "Registrar una o más deudas tributarias por un monto total superior a 500 UTM por más de un año, o superior a 200 UTM e inferior a 500 UTM por un período superior a 2 años, sin que exista un convenio de pago vigente. En caso de encontrarse pendiente juicio sobre la efectividad de la deuda, esta inhabilidad regirá una vez que se encuentre firme o ejecutoriada la respectiva resolución.",
+      "Registrar deudas previsionales o de salud por más de 12 meses por sus trabajadores dependientes, lo que se acreditará mediante certificado de la autoridad competente.",
+      "La presentación al Registro Nacional de Proveedores de uno o más documentos falsos, declarado así por sentencia judicial ejecutoriada.",
+      "Haber sido declarado en quiebra por resolución judicial ejecutoriada.",
+      "Haber sido eliminado o encontrarse suspendido del Registro Nacional de Proveedores por resolución fundada de la Dirección de Compras.",
+      "Haber sido condenado por prácticas antisindicales o infracción a los derechos fundamentales del trabajador.",
+      "Registrar condenas asociadas a responsabilidad penal jurídica (incumplimiento artículo 10, Ley 20.393)."
+    ],
+    "documentosPersonaJuridica": [
+      "- Fotocopia Legalizada del Rut de la Empresa",
+      "- Declaración jurada acreditando que no se encuentra afecto al art. 4 inciso 6 de la ley 19.886, en el cual se establece que \"ningún órgano de la administración del Estado podrá suscribir contratos administrativos de provisión de bienes y servicios con los funcionarios directivos del mismo órgano o empresa, ni con personas unidas a ellos por los vínculos de parentesco.\"",
+      "- Certificado de Vigencia de la Sociedad",
+      "-(1)Certificado de Boletín de Informes Comerciales",
+      "-(1)Certificado de Quiebras/Convenio Judicial",
+      null,
+      null,
+      null
+    ]
+  },
+  "6": {
+    "item1": {
+      "nombre": "Plazo de Entrega",
+      "observacion": "EVALUACIÓN PLAZO DE ENTREGA PARA ENTREGA PROGRAMADA: Este criterio equivale al 20% del total de la evaluación y corresponde al Formulario T-2. Este criterio se evaluará considerando la sumatoria de los tiempos de respuesta por cada establecimiento señalado. El proveedor obtendrá el puntaje que se señala a continuación:\r\n\r\n                                                   POPE=((OEB/OEE)X 100)x 20%\r\n  Dónde:\r\nPOPE: Puntaje de la Oferta Plazo de Entrega.\r\nMPE: Menor Plazo de Entrega.\r\nPEE: Plazo de Entrega en Evaluación.\r\n\r\n\tEVALUACIÓN PLAZO DE ENTREGA URGENTE O DE EMERGENCIA: Este criterio equivale al 20% del total de la evaluación y corresponde al Formulario T-3. Este criterio se evaluará considerando la sumatoria de los tiempos de respuesta por cada establecimiento señalado. El proveedor obtendrá el puntaje que se señala a continuación:\r\n\r\n                                                POPE=((MPE/PEE)X 100)x 20%\r\n   Dónde:\r\nPOPE: Puntaje de la Oferta Plazo de Entrega.\r\nMPE: Menor Plazo de Entrega.\r\nPEE: Plazo de Entrega en Evaluación.\r\n\r\nAdemás, en este criterio deberá tomarse en cuenta el plazo logístico que conlleva trasladar a cada establecimiento partícipe de este convenio de suministro el servicio que se oferta.",
+      "ponderacion": "40%"
+    },
+    "item2": {
+      "nombre": "Precio",
+      "observacion": "•\tEVALUACIÓN OFERTA ECONÓMICA ENTREGAS PROGRAMADAS: Considera el Formulario E-1-A, basados en valores Exentos de IVA (NETO); este criterio corresponde o equivale al 35% del total de la Evaluación. Esta evaluación consiste en el sumatorio total del valor fijo por entrega programa da cada establecimiento según el cuadro “Consumo promedio” del punto n°18.3 de estas bases, que será parte del convenio de suministro de servicios de entrega. Este precio incluye el Suministro de Gases, el Arriendo y Mantención de los Cilindros. Se evaluará de la siguiente manera: \r\n\r\n \r\nDónde:\r\nPOE: Puntaje de la Oferta Económica en evaluación.\r\nOEB: Oferta Económica más Baja.\r\nOEE: Oferta Económica en Evaluación.\r\n\r\n\tAdemás, se deja establecido que la evaluación de este criterio se realizará usando el precio \tofertado por cada tipo de gas, asociado a su formato de cilindro correspondiente y por \tcantidad señalada en la tabla “Consumo promedio” del punto n°18.3 de estas bases.\r\n**Se deja establecido que la forma de evaluación de los valores indicados en el formulario E-1-A. Se multiplicará el valor ofertado contra las cantidades indicadas en el cuadro “Consumo promedio” del punto n°18.3 de estas bases, se deja en claro que no todos los establecimientos de la red del SSDR requieren los mismos tipos de gases clínicos, así como tampoco la misma cantidad, todo va a depender del cuadro mencionado anteriormente**\r\n\r\n•\tEVALUACIÓN OFERTA ECONÓMICA PRECIO POR ENTREGA URGENTE O DE EMERGENCIA: Considera el Formulario E-1-B, basados en valores Exentos de IVA (NETO); este criterio corresponde o equivale al 15% del total de la Evaluación. Esta evaluación consiste en el sumatorio total del valor por flete por entrega urgente o de emergencia para cada establecimiento que será parte del convenio de suministro de servicios de entrega. Se evaluará de la siguiente manera: \r\n\r\n \r\n  Dónde:\r\nPOE: Puntaje de la Oferta Económica en evaluación.\r\nOEB: Oferta Económica más Baja.\r\nOEE: Oferta Económica en Evaluación.\r\n\r\n\tAdemás, se deja establecido que la evaluación de este criterio se realizará usando el precio \tofertado por cada tipo de gas, asociado a su formato de cilindro correspondiente y por \tcantidad señalada. En este valor deberán tomarse en cuenta los fletes y recargos asociados \ta una entrega que no estaba programada. \r\n\r\n**Se deja establecido que la forma de evaluación es el sumatorio total de los valores indicados en el formulario E-1-B. Se deja en claro que no todos los establecimientos de la red del SSDR requieren los mismos tipos de gases clínicos, así como tampoco la misma cantidad, todo va a depender de la demanda de cada establecimiento, y su programación**",
+      "ponderacion": "50%"
+    },
+    "item3": {
+      "nombre": "Cumplimiento de los requisitos",
+      "observacion": "Considera todos los antecedentes solicitados en la Licitación y sus Anexos o Formularios; Este criterio corresponde o equivale al (5) % del total de la Evaluación. Se evaluará de la siguiente manera:\r\n\r\nCRITERIO\tPUNTAJE\r\nEntrega la totalidad de formularios solicitados, con la información completa y respaldos solicitados en las bases al momento de presentar la oferta.\t100 Puntos\r\nSi al momento de evaluar, se comprueba que faltan formularios, o la información está incompleta o faltan respaldos solicitados en las bases, y, por ende, debe solicitarse a través del foro inverso.\t50 Puntos\r\nNo entrega o no da respuesta a la consulta efectuada en el foro INADMISIBLE\t0\tPuntos e INADMISIBLE",
+      "ponderacion": "5%"
+    },
+    "item4": {
+      "nombre": "Programas de Integridad",
+      "observacion": "Considera el Formulario T-3; Para la evaluación de este criterio, se evaluará si el oferente posee un programa de integridad que sea conocido por su personal, lo cual deberá ser declarado en el formulario T-3. En caso de que dicho formulario no se presente en conjunto con la oferta presentada, o bien, este no se encuentre debidamente completado y firmado, se entenderá que el oferente en cuestión no cuenta con un programa de integridad que sea conocido por su personal.  \r\nEste criterio de evaluación es dictado según disposiciones del Articulo Nº17, del decreto supremo Nº661/2024.\r\nEl mecanismo de asignación de puntaje será el siguiente:\r\n\r\nCRITERIO \tPuntaje\r\nPosee un programa de integridad que sea conocido por su personal\t100\r\nNo Posee un programa de integridad que sea conocido por su personal\t0 Puntos",
+      "ponderacion": "5%"
+    },
+    "item5": {
+      "nombre": null,
+      "observacion": null,
+      "ponderacion": null
+    },
+    "item6": {
+      "nombre": null,
+      "observacion": null,
+      "ponderacion": null
+    },
+    "item7": {
+      "nombre": null,
+      "observacion": null,
+      "ponderacion": null
+    }
+  },
+  "7": {
+    "estimacionEnBaseA": "Presupuesto Disponible",
+    "fuenteDeFinanciamiento": "st. 22",
+    "contratoConRenovacion": "SI",
+    "observaciones": "Sin observaciones",
+    "tiempoDeContrato": "12 Meses",
+    "plazosDePago": "30 días contra la recepción conforme de la factura",
+    "opcionesDePago": "Transferencia Electrónica",
+    "nombreResponsableDePago": "SERVICIO DE SALUD DEL RELONCAVí",
+    "emailRespondableDePago": "FINANZAS@SSDR.GOB.CL",
+    "prohibicionDeSubcontratacion": "Se permite subcontratación"
+  },
+  "8": {
+    "beneficiario": "SERVICIO DE SALUD DEL RELONCAVÍ",
+    "fechaVencimiento": "01-03-2027",
+    "monto": "%",
+    "descripcion": "No hay información",
+    "glosa": "Para garantizar fiel cumplimiento de contrato Licitación Pública “SUMINISTRO DE GASES CLINICOS PARA ESTABLECIMIENTOS DE BAJA COMPLEJIDAD Y CESFAM DE LA RED DEL SERVICIO DE SALUD DEL RELONCAVI”",
+    "formaYOportunidadDeRestitucion": "Después de diez (10) días hábiles como plazo máximo de expirada la vigencia del documento de Fiel y Oportuno Cumplimiento del Contrato, éste será devuelto una vez que el “Proveedor” haya dado total, íntegro y oportuno cumplimiento a todas las obligaciones por él contraídas en el respectivo contrato y vencido el plazo fijado. Será devuelta sin reajustes ni intereses, ni costo alguno para el Servicio de Salud del Reloncaví.  \r\nLos documentos serán endosados por Unidad de gestión financiera del Servicio de Salud Reloncaví y despachados por la Oficina de Partes vía correo formal, cesando desde éste momento la responsabilidad de custodia del documento."
+  },
+  "9": {
+    "clausulaReadjudicacion": "Si el respectivo adjudicatario se desiste de su oferta, no entrega los antecedentes legales para contratar y/o la garantía de fiel cumplimiento, no firma el contrato o no se inscribe en Chileproveedores en los plazos que se establecen en las presentes bases, la entidad licitante podrá dejar sin efecto la adjudicación y seleccionar al oferente que, de acuerdo al resultado de la evaluación le siga en puntaje, y así sucesivamente, a menos que, de acuerdo a los intereses del servicio, se estime conveniente declarar desierta la licitación.",
+    "resolucionDeEmpates": "De existir más de un proveedor en igualdad de puntaje en primera instancia se discriminará de acuerdo a:Evaluación Condición Económica.Evaluación Plazo de Entrega.Cumplimiento de requisitos formales.Programas de Integridad.Nota: el orden es de carácter descendente.En el caso de que el empate persista, se seleccionará a la propuesta que ingresó primero en el portalwww.mercadopublico.cl.",
+    "mecanismoSolucionConsultas": null,
+    "acreditacionCumplimiento": null,
+    "presentacionAntecedentesOmitidos": null,
+    "pactoDeIntegridad": null
+  }
+}

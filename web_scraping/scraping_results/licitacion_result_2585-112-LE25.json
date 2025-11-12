@@ -1,22 +1,22 @@
 {
   "1": {
-    "descripcion": "PP 613-2025 / AMPLIACIÓN CECOSF NORTE GRANDE",
-    "tipo": "Pública-Licitación Pública igual o superior a 1.000 UTM e inferior a 5.000 UTM (LP)",
+    "descripcion": "ADQ. MATERIALES ELECTRICOS, DIMAO, ORD N° 769/2025, LSV, IMA",
+    "tipo": "Pública-Licitación Pública igual o superior a 100 UTM e inferior a 1.000 UTM (LE)",
     "etapas": "Una Etapa"
   },
   "2": {
-    "razonSocial": "I MUNICIPALIDAD VALDIVIA",
-    "unidadDeCompra": "SECPLAN-SALUD",
-    "rut": "69.200.100-1",
-    "direccion": "ARAUCO 642/ Liceo Santa María",
-    "comuna": "Valdivia",
-    "regionDeLicitacion": "Región de Los Ríos"
+    "razonSocial": "I MUNICIPALIDAD DE ARICA",
+    "unidadDeCompra": "FINANZAS IMA",
+    "rut": "69.010.100-9",
+    "direccion": "AV. RENATO ROCCA 1585",
+    "comuna": "Arica",
+    "regionDeLicitacion": "Región de Arica y Parinacota"
   },
   "3": {},
   "4": {
-    "documentosAdministrativos": "DE ACUERDO A LO ESTABLECIDO EN LAS B.A.G. (PUNTO 4.1.1.).-//",
-    "documentosTecnicos": null,
-    "documentosEconomicos": "DE ACUERDO A LO ESTABLECIDO EN LAS B.A.G. (PUNTO 4.1.2.).-//"
+    "documentosAdministrativos": "Ser persona Natural, Jurídica o unión temporal de proveedores.",
+    "documentosTecnicos": "REMITIRSE A LAS BASES ADJUNTAS",
+    "documentosEconomicos": "REMITIRSE A LAS BASES ADJUNTAS"
   },
   "5": {
     "personaNatural": [
@@ -50,11 +50,11 @@
       "Registrar condenas asociadas a responsabilidad penal jurídica (incumplimiento artículo 10, Ley 20.393)."
     ],
     "documentosPersonaJuridica": [
-      null,
-      null,
-      null,
-      null,
-      null,
+      "- Fotocopia Legalizada del Rut de la Empresa",
+      "- Declaración jurada acreditando que no se encuentra afecto al art. 4 inciso 6 de la ley 19.886, en el cual se establece que \"ningún órgano de la administración del Estado podrá suscribir contratos administrativos de provisión de bienes y servicios con los funcionarios directivos del mismo órgano o empresa, ni con personas unidas a ellos por los vínculos de parentesco.\"",
+      "- Certificado de Vigencia de la Sociedad",
+      "-(1)Certificado de Boletín de Informes Comerciales",
+      "-(1)Certificado de Quiebras/Convenio Judicial",
       null,
       null,
       null
@@ -62,59 +62,64 @@
   },
   "6": {
     "item1": {
-      "nombre": "PROGRAMA DE INTEGRIDAD",
-      "observacion": "DE ACUERDO A LO ESTABLECIDO EN EL PUNTO 6.1 (2da ETAPA) DE LAS BASES ADMINISTRATIVAS ESPECIALES.-",
-      "ponderacion": "3%"
+      "nombre": "Plazo de Entrega",
+      "observacion": "REMITIRSE A LAS BASES ADJUNTAS",
+      "ponderacion": "20%"
     },
     "item2": {
-      "nombre": "OFERTA ECONOMICA",
-      "observacion": "DE ACUERDO A LO ESTABLECIDO EN EL PUNTO 6.1 (2da ETAPA) DE LAS BASES ADMINISTRATIVAS ESPECIALES.-",
-      "ponderacion": "80%"
+      "nombre": "Cumplimiento de Antecedentes en acto de Apertura",
+      "observacion": "REMITIRSE A LAS BASES ADJUNTAS",
+      "ponderacion": "5%"
     },
     "item3": {
-      "nombre": "PLAZO DE EJECUCIÓN DE LA OBRA",
-      "observacion": "DE ACUERDO A LO ESTABLECIDO EN EL PUNTO 6.1 (2da ETAPA) DE LAS BASES ADMINISTRATIVAS ESPECIALES.-",
-      "ponderacion": "4%"
+      "nombre": "Precio",
+      "observacion": "REMITIRSE A LAS BASES ADJUNTAS",
+      "ponderacion": "70%"
     },
     "item4": {
-      "nombre": "CUMPLIMIENTO CONTRACTUAL ANTERIOR",
-      "observacion": "DE ACUERDO A LO ESTABLECIDO EN EL PUNTO 6.1 (2da ETAPA) DE LAS BASES ADMINISTRATIVAS ESPECIALES.-",
-      "ponderacion": "4%"
+      "nombre": "Programa de Integridad",
+      "observacion": "REMITIRSE A LAS BASES ADJUNTAS",
+      "ponderacion": "5%"
     },
     "item5": {
-      "nombre": "CUMPLIMIENTO DE LOS REQUISITOS FORMALES",
-      "observacion": "DE ACUERDO A LO ESTABLECIDO EN EL PUNTO 6.1 (2da ETAPA) DE LAS BASES ADMINISTRATIVAS ESPECIALES.-",
-      "ponderacion": "2%"
+      "nombre": null,
+      "observacion": null,
+      "ponderacion": null
     },
     "item6": {
-      "nombre": "MANO DE OBRA LOCAL",
-      "observacion": "DE ACUERDO A LO ESTABLECIDO EN EL PUNTO 6.1 (2da ETAPA) DE LAS BASES ADMINISTRATIVAS ESPECIALES.-",
-      "ponderacion": "2%"
+      "nombre": null,
+      "observacion": null,
+      "ponderacion": null
+    },
+    "item7": {
+      "nombre": null,
+      "observacion": null,
+      "ponderacion": null
     }
   },
   "7": {
-    "estimacionEnBaseA": "Presupuesto Disponible",
-    "fuenteDeFinanciamiento": "I. MUNICIPALIDAD DE VALDIVIA",
+    "estimacionEnBaseA": "Precio Referencial",
+    "fuenteDeFinanciamiento": "ILUSTRE MUNICIPALIDADA DE ARICA",
     "contratoConRenovacion": "NO",
-    "observaciones": "LA OFERTA ECONOMICA NO PODRA SOBREPASAR EL MONTO DISPONIBLE SEÑALADO, DE LO CONTRARIO LA OFERTA QUEDARA FUERA DE BASES SEGÚN SE INDICA EN EL PUNTO NÚMERO 4 DE LAS B.A.E.",
+    "observaciones": "OFERTAR EN VALOR NETO",
     "tiempoDeContrato": null,
     "plazosDePago": "30 días contra la recepción conforme de la factura",
     "opcionesDePago": "Transferencia Electrónica, Cheque",
-    "nombreResponsableDePago": "STEVEN YALE RUIZ",
-    "emailRespondableDePago": "syale@munivaldivia.cl",
-    "prohibicionDeSubcontratacion": "Se permite subcontratación"
+    "nombreResponsableDePago": "MAURICIO ALBANES GOMEZ",
+    "emailRespondableDePago": "MAURICIO.ALBANES@MUNICIPALIDADARICA.CL",
+    "prohibicionDeSubcontratacion": "No permite subcontrataciónNo permite subcontratación, de acuerdo al Capitulo VIII del Contrato de Suministros  y servicio, Art. 76. Subcontratación del Reglamento de la Ley N 19.886 sobre compra publicas."
   },
   "8": {
-    "beneficiario": "ILUSTRE MUNICIPALIDAD DE VALDIVIA",
-    "fechaVencimiento": "30-11-2026",
-    "monto": "%",
-    "descripcion": "SEGÚN LO INDICADO EN EL PUNTO N° 18 DE LAS BASES ADMINISTRATIVAS ESPECIALES.-//",
-    "glosa": "\"EN GARANTIA DE FIEL Y OPORTUNO CUMPLIMIENTO DE CONTRATO Y OBLIGACIONES LABORALES, PROPUESTA PÚBLICA N° 613-2025 \" AMPLIACIÓN CECOSF NORTE GRANDE.-\"",
-    "formaYOportunidadDeRestitucion": "SEGÚN LO INDICADO EN EL PUNTO N° 18.7 DE LAS BASES ADMINISTRATIVAS ESPECIALES.-"
+    "beneficiario": null,
+    "fechaVencimiento": null,
+    "monto": null,
+    "descripcion": null,
+    "glosa": null,
+    "formaYOportunidadDeRestitucion": null
   },
   "9": {
     "clausulaReadjudicacion": null,
-    "resolucionDeEmpates": "En caso que exista empate entre oferentes, el desempate se resolverá favoreciendo a quien presente el mayor puntaje en el criterioOFERTA ECONOMICA, de persistir el empate se definirá por el mayor puntaje en el criterioCONTRATACION DE SEGUROS, luego mayor puntaje en el criterioPLAZO DE EJECUCIÓN DE LA OBRA, luegoCUMPLIMIENTO CONTRACTUAL ANTERIOR, si continua el empatePROGRAMA INTEGRIDAD, luego el criterioMANO DE OBRA LOCALy finalmente mayor puntaje en el criterioCUMPLIMIENTO DE REQUISITOS FORMALES.-//",
+    "resolucionDeEmpates": "",
     "mecanismoSolucionConsultas": null,
     "acreditacionCumplimiento": null,
     "presentacionAntecedentesOmitidos": null,

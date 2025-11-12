@@ -1,0 +1,128 @@
+{
+  "1": {
+    "descripcion": "CONSTRUCCIÓN DE BODEGA PARA INSUMOS DE ASEO PARA EL SAR LOS QUILLAYES DE LA FLORIDA",
+    "tipo": "Pública-Licitación Pública igual o superior a 100 UTM e inferior a 1.000 UTM (LE)",
+    "etapas": "Una Etapa"
+  },
+  "2": {
+    "razonSocial": "CORP MUNICIPAL DE EDUC SALUD CULTURA Y RECREACION DE LA FLORIDA",
+    "unidadDeCompra": "Corporación Municipal de la Florida",
+    "rut": "70.933.700-9",
+    "direccion": "Serafín Zamora N° 6600, La Florida",
+    "comuna": "La Florida",
+    "regionDeLicitacion": "Región Metropolitana de Santiago"
+  },
+  "3": {},
+  "4": {
+    "documentosAdministrativos": "ANEXOS ADMINISTRATIVOS",
+    "documentosTecnicos": "ANEXOS TÉCNICOS",
+    "documentosEconomicos": "ANEXOS ECONÓMICOS"
+  },
+  "5": {
+    "personaNatural": [
+      "Haber sido condenado por cualquiera de los delitos de cohecho contemplados en el título V del Libro Segundo del Código Penal.",
+      "Registrar una o más deudas tributarias por un monto total superior a 500 UTM por más de un año, o superior a 200 UTM e inferior a 500 UTM por un período superior a 2 años, sin que exista un convenio de pago vigente. En caso de encontrarse pendiente juicio sobre la efectividad de la deuda, esta inhabilidad regirá una vez que se encuentre firme o ejecutoriada la respectiva resolución.",
+      "Registrar deudas previsionales o de salud por más de 12 meses por sus trabajadores dependientes, lo que se acreditará mediante certificado de la autoridad competente.",
+      "La presentación al Registro Nacional de Proveedores de uno o más documentos falsos, declarado así por sentencia judicial ejecutoriada.",
+      "Haber sido declarado en quiebra por resolución judicial ejecutoriada.",
+      "Haber sido eliminado o encontrarse suspendido del Registro Nacional de Proveedores por resolución fundada de la Dirección de Compras.",
+      "Haber sido condenado por prácticas antisindicales o infracción a los derechos fundamentales del trabajador.",
+      "Registrar condenas asociadas a responsabilidad penal jurídica (incumplimiento artículo 10, Ley 20.393)."
+    ],
+    "documentosPersonaNatural": [
+      "- Fotocopia Legalizada de Cédula de Identidad",
+      "- Declaración jurada acreditando que no se encuentra afecto al art. 4 inciso 6 de la ley 19.886, en el cual se establece que \"ningún órgano de la administración del Estado podrá suscribir contratos administrativos de provisión de bienes y servicios con los funcionarios directivos del mismo órgano o empresa, ni con personas unidas a ellos por los vínculos de parentesco.\"",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "personaJuridica": [
+      "Haber sido condenado por cualquiera de los delitos de cohecho contemplados en el título V del Libro Segundo del Código Penal.",
+      "Registrar una o más deudas tributarias por un monto total superior a 500 UTM por más de un año, o superior a 200 UTM e inferior a 500 UTM por un período superior a 2 años, sin que exista un convenio de pago vigente. En caso de encontrarse pendiente juicio sobre la efectividad de la deuda, esta inhabilidad regirá una vez que se encuentre firme o ejecutoriada la respectiva resolución.",
+      "Registrar deudas previsionales o de salud por más de 12 meses por sus trabajadores dependientes, lo que se acreditará mediante certificado de la autoridad competente.",
+      "La presentación al Registro Nacional de Proveedores de uno o más documentos falsos, declarado así por sentencia judicial ejecutoriada.",
+      "Haber sido declarado en quiebra por resolución judicial ejecutoriada.",
+      "Haber sido eliminado o encontrarse suspendido del Registro Nacional de Proveedores por resolución fundada de la Dirección de Compras.",
+      "Haber sido condenado por prácticas antisindicales o infracción a los derechos fundamentales del trabajador.",
+      "Registrar condenas asociadas a responsabilidad penal jurídica (incumplimiento artículo 10, Ley 20.393)."
+    ],
+    "documentosPersonaJuridica": [
+      "- Fotocopia Legalizada del Rut de la Empresa",
+      "- Declaración jurada acreditando que no se encuentra afecto al art. 4 inciso 6 de la ley 19.886, en el cual se establece que \"ningún órgano de la administración del Estado podrá suscribir contratos administrativos de provisión de bienes y servicios con los funcionarios directivos del mismo órgano o empresa, ni con personas unidas a ellos por los vínculos de parentesco.\"",
+      "- Certificado de Vigencia de la Sociedad",
+      "-(1)Certificado de Boletín de Informes Comerciales",
+      "-(1)Certificado de Quiebras/Convenio Judicial",
+      null,
+      null,
+      null
+    ]
+  },
+  "6": {
+    "item1": {
+      "nombre": "Experiencia de los Oferentes",
+      "observacion": "NUMERAL 9.2 BASES ADMINISTRATIVAS ESPECIALES",
+      "ponderacion": "15%"
+    },
+    "item2": {
+      "nombre": "Plazo de Entrega",
+      "observacion": "X= Plazo mínimo ofertado * 20 /Plazo a evaluar X",
+      "ponderacion": "20%"
+    },
+    "item3": {
+      "nombre": "FORMA DE PRESENTACIÓN DE LAS OFERTAS",
+      "observacion": "NUMERAL 9.4 BASES ADMINISTRATIVAS ESPECIALES",
+      "ponderacion": "4%"
+    },
+    "item4": {
+      "nombre": "CUMPLIMIENTO PROGRAMAS DE INTEGRIDAD",
+      "observacion": "NUMERAL 9.5 BASES ADMINISTRATIVAS ESPECIALES",
+      "ponderacion": "1%"
+    },
+    "item5": {
+      "nombre": "Precio",
+      "observacion": "X= Precio mínimo ofertado * 60 /Precio Oferta X",
+      "ponderacion": "60%"
+    },
+    "item6": {
+      "nombre": null,
+      "observacion": null,
+      "ponderacion": null
+    },
+    "item7": {
+      "nombre": null,
+      "observacion": null,
+      "ponderacion": null
+    }
+  },
+  "7": {
+    "estimacionEnBaseA": "Presupuesto Disponible",
+    "fuenteDeFinanciamiento": "No hay información",
+    "contratoConRenovacion": "NO",
+    "observaciones": "Sin observaciones",
+    "tiempoDeContrato": null,
+    "plazosDePago": "30 días contra la recepción conforme de la factura",
+    "opcionesDePago": "Transferencia Electrónica",
+    "nombreResponsableDePago": "DIRECCIÓN ADMINISTRACIÓN Y FINANZAS",
+    "emailRespondableDePago": "sebastian.uribe@comudef.cl",
+    "prohibicionDeSubcontratacion": "Se permite subcontratación"
+  },
+  "8": {
+    "beneficiario": null,
+    "fechaVencimiento": null,
+    "monto": null,
+    "descripcion": null,
+    "glosa": null,
+    "formaYOportunidadDeRestitucion": null
+  },
+  "9": {
+    "clausulaReadjudicacion": "Si el respectivo adjudicatario se desiste de su oferta, no entrega los antecedentes legales para contratar y/o la garantía de fiel cumplimiento, no firma el contrato o no se inscribe en Chileproveedores en los plazos que se establecen en las presentes bases, la entidad licitante podrá dejar sin efecto la adjudicación y seleccionar al oferente que, de acuerdo al resultado de la evaluación le siga en puntaje, y así sucesivamente, a menos que, de acuerdo a los intereses del servicio, se estime conveniente declarar desierta la licitación.",
+    "resolucionDeEmpates": "Si en el resultado de la evaluación final hubiese empate, se le adjudicará al oferente cuyo ÍtemOferta Económicasea el de mayor ponderación; en caso de mantenerse el empate, se resolverá por quien tenga mayor ponderación en el criterio dePlazo de Ejecución; sí, aplicado lo anterior aún se mantiene el empate, se resolverá con la mayor ponderación en el criterio deExperiencia del Oferente en Obra; si hecho lo anterior, aún se mantiene el empate, se resolverá con quien obtenga la mejor ponderación en el criterioForma de presentación de la Propuesta;sí aún se mantiene el empate, se resolverá con quien obtenga la mejor ponderación en el criterioCumplimiento de Programa de Integridad y su Difusión;Finalmente, de mantenerse el empate, se resolverá considerando la oferta que haya ingresado primero a través del portal de Mercado Público, de conformidad al formulario de ingreso de oferta, generado por la plataforma.",
+    "mecanismoSolucionConsultas": "El oferente declara que, por el sólo hecho de participar en el proceso de licitación, acepta expresamente el presente pacto de integridad, obligándose a cumplir con todas y cada una de las estipulaciones contenidas en el mismo, sin perjuicio de las que se señalen en el resto de las bases de licitación y demás documentos integrantes. Especialmente, el oferente acepta el suministrar toda la información y documentación que sea considerada necesaria y exigida de acuerdo con las bases de licitación, asumiendo expresamente los siguientes compromisos:a)El oferente se compromete a respetar los derechos fundamentales de sus trabajadores, entendiéndose por éstos los consagrados en la Constitución Política de la República en su artículo 19°, números 1º, 4º, 5º, 6º, 12º, y 16º, en conformidad al artículo 485° del Código del Trabajo. Asimismo, el oferente se compromete a respetar los derechos humanos, lo que significa que debe evitar dar lugar o contribuir a efectos adversos en los derechos humanos mediante sus actividades, productos o servicios, y subsanar esos efectos cuando se produzcan, de acuerdo con los Principios Rectores de Derechos Humanos y Empresas de Naciones Unidas.b)El oferente se obliga a no ofrecer ni conceder, ni intentar ofrecer o conceder, sobornos, regalos, premios, dádivas o pagos, cualquiera fuese su tipo, naturaleza y/o monto, a ningún funcionario público en relación con su oferta, con el proceso de licitación, ni con la ejecución del o los contratos que eventualmente se deriven de la misma, ni tampoco a ofrecerlas o concederlas a terceras personas que pudiesen influir directa o indirectamente en el proceso licitatorio, en su toma de decisiones o en la posterior adjudicación y ejecución del o los contratos que de ello se deriven.c)El oferente se obliga a no intentar ni efectuar acuerdos o realizar negociaciones, actos o conductas que tengan por objeto influir o afectar de cualquier forma la libre competencia, cualquiera fuese la conducta o acto específico, y especialmente, aquellos acuerdos, negociaciones, actos o conductas de tipo o naturaleza colusiva, en cualquiera de sus tipos o formas.d)El oferente se obliga a revisar y verificar toda la información y documentación, que deba presentar para efectos del presente proceso licitatorio, tomando todas las medidas que sean necesarias para asegurar su veracidad, integridad, legalidad, consistencia, precisión y vigencia.e)El oferente se obliga a ajustar su actuar y cumplir con los principios de legalidad, ética, moral, buenas costumbres y transparencia en el proceso licitatorio.f)El oferente manifiesta, garantiza y acepta que conoce y respetará las reglas y condiciones establecidas en las bases de licitación, sus documentos integrantes y él o los contratos que de ellos se derivase.g)El oferente se obliga a aceptar y asumir las consecuencias y sanciones previstas en las bases de licitación, así como en la legislación y normativa que sean aplicables a la misma.h)El oferente reconoce y declara que la oferta presentada en el proceso licitatorio es una propuesta seria, con información fidedigna y en términos técnicos y económicos ajustados a la realidad, que aseguren la posibilidad de cumplir con la misma en las condiciones y oportunidad ofertadas.i)El oferente se obliga a tomar todas las medidas que fuesen necesarias para que las obligaciones anteriormente señaladas sean asumidas y cabalmente cumplidas por sus empleados, dependientes, asesores y/o agentes y, en general, todas las personas con que éste o éstos se relacionen directa o indirectamente en virtud o como efecto de la licitación, incluidos sus subcontratistas, haciéndose plenamente responsable de las consecuencias de su infracción, sin perjuicio de las responsabilidades individuales que también procediesen y/o fuesen determinadas por los organismos correspondientes.",
+    "acreditacionCumplimiento": null,
+    "presentacionAntecedentesOmitidos": null,
+    "pactoDeIntegridad": null
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "1": {
+    "descripcion": "PROVISIÓN E INSTALACIÓN DE RIELES PARA HABILITAR LA SALA DE EXHIBICIONES TEMPORALES DEL MUSEO REGIONAL DE ATACAMA",
+    "tipo": "Pública-Licitación Pública igual o superior a 100 UTM e inferior a 1.000 UTM (LE)",
+    "etapas": "Una Etapa"
+  },
+  "2": {
+    "razonSocial": "SERVICIO NACIONAL DEL PATRIMONIO CULTURAL",
+    "unidadDeCompra": "SUBDIRECCION DE MUSEOS",
+    "rut": "60.905.000-4",
+    "direccion": "No hay información",
+    "comuna": "No hay información",
+    "regionDeLicitacion": "Región de Atacama"
+  },
+  "3": {},
+  "4": {
+    "documentosAdministrativos": "Documentación requerida se encuentra detallada en bases de licitación.",
+    "documentosTecnicos": null,
+    "documentosEconomicos": "Documentación requerida se encuentra detallada en bases de licitación."
+  },
+  "5": {
+    "personaNatural": [
+      "Haber sido condenado por cualquiera de los delitos de cohecho contemplados en el título V del Libro Segundo del Código Penal.",
+      "Registrar una o más deudas tributarias por un monto total superior a 500 UTM por más de un año, o superior a 200 UTM e inferior a 500 UTM por un período superior a 2 años, sin que exista un convenio de pago vigente. En caso de encontrarse pendiente juicio sobre la efectividad de la deuda, esta inhabilidad regirá una vez que se encuentre firme o ejecutoriada la respectiva resolución.",
+      "Registrar deudas previsionales o de salud por más de 12 meses por sus trabajadores dependientes, lo que se acreditará mediante certificado de la autoridad competente.",
+      "La presentación al Registro Nacional de Proveedores de uno o más documentos falsos, declarado así por sentencia judicial ejecutoriada.",
+      "Haber sido declarado en quiebra por resolución judicial ejecutoriada.",
+      "Haber sido eliminado o encontrarse suspendido del Registro Nacional de Proveedores por resolución fundada de la Dirección de Compras.",
+      "Haber sido condenado por prácticas antisindicales o infracción a los derechos fundamentales del trabajador.",
+      "Registrar condenas asociadas a responsabilidad penal jurídica (incumplimiento artículo 10, Ley 20.393)."
+    ],
+    "documentosPersonaNatural": [
+      "- Fotocopia Legalizada de Cédula de Identidad",
+      "- Declaración jurada acreditando que no se encuentra afecto al art. 4 inciso 6 de la ley 19.886, en el cual se establece que \"ningún órgano de la administración del Estado podrá suscribir contratos administrativos de provisión de bienes y servicios con los funcionarios directivos del mismo órgano o empresa, ni con personas unidas a ellos por los vínculos de parentesco.\"",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "personaJuridica": [
+      "Haber sido condenado por cualquiera de los delitos de cohecho contemplados en el título V del Libro Segundo del Código Penal.",
+      "Registrar una o más deudas tributarias por un monto total superior a 500 UTM por más de un año, o superior a 200 UTM e inferior a 500 UTM por un período superior a 2 años, sin que exista un convenio de pago vigente. En caso de encontrarse pendiente juicio sobre la efectividad de la deuda, esta inhabilidad regirá una vez que se encuentre firme o ejecutoriada la respectiva resolución.",
+      "Registrar deudas previsionales o de salud por más de 12 meses por sus trabajadores dependientes, lo que se acreditará mediante certificado de la autoridad competente.",
+      "La presentación al Registro Nacional de Proveedores de uno o más documentos falsos, declarado así por sentencia judicial ejecutoriada.",
+      "Haber sido declarado en quiebra por resolución judicial ejecutoriada.",
+      "Haber sido eliminado o encontrarse suspendido del Registro Nacional de Proveedores por resolución fundada de la Dirección de Compras.",
+      "Haber sido condenado por prácticas antisindicales o infracción a los derechos fundamentales del trabajador.",
+      "Registrar condenas asociadas a responsabilidad penal jurídica (incumplimiento artículo 10, Ley 20.393)."
+    ],
+    "documentosPersonaJuridica": [
+      "- Fotocopia Legalizada del Rut de la Empresa",
+      "- Declaración jurada acreditando que no se encuentra afecto al art. 4 inciso 6 de la ley 19.886, en el cual se establece que \"ningún órgano de la administración del Estado podrá suscribir contratos administrativos de provisión de bienes y servicios con los funcionarios directivos del mismo órgano o empresa, ni con personas unidas a ellos por los vínculos de parentesco.\"",
+      "- Certificado de Vigencia de la Sociedad",
+      "-(1)Certificado de Boletín de Informes Comerciales",
+      "-(1)Certificado de Quiebras/Convenio Judicial",
+      null,
+      null,
+      null
+    ]
+  },
+  "6": {
+    "item1": {
+      "nombre": "Enfoque de Género",
+      "observacion": "Ver punto 6.5 letra d) de las bases adjuntas",
+      "ponderacion": "2%"
+    },
+    "item2": {
+      "nombre": "Plazo de ejecución",
+      "observacion": "ver punto 6.5 letra b) de las bases adjuntas",
+      "ponderacion": "10%"
+    },
+    "item3": {
+      "nombre": "Evaluación del cumplimiento de requisitos fo",
+      "observacion": "ver punto 6.7 de las bases adjuntas",
+      "ponderacion": "4%"
+    },
+    "item4": {
+      "nombre": "Condiciones de la oferta",
+      "observacion": "Ver punto 6.5 letra a) de las bases adjuntas",
+      "ponderacion": "27%"
+    },
+    "item5": {
+      "nombre": "Garantía del producto e instalación",
+      "observacion": "ver punto 6.5 letra c) de las bases adjuntas",
+      "ponderacion": "20%"
+    },
+    "item6": {
+      "nombre": "Oferta económica",
+      "observacion": "Ver punto 6.4 de las bases adjuntas",
+      "ponderacion": "35%"
+    },
+    "item7": {
+      "nombre": "Plan de Integridad",
+      "observacion": "ver punto 6.6 de las bases adjuntas",
+      "ponderacion": "2%"
+    }
+  },
+  "7": {
+    "estimacionEnBaseA": "Presupuesto Disponible",
+    "fuenteDeFinanciamiento": "No hay información",
+    "contratoConRenovacion": "NO",
+    "observaciones": "Sin observaciones",
+    "tiempoDeContrato": "30 Días",
+    "plazosDePago": "30 días contra la recepción conforme de la factura",
+    "opcionesDePago": "Transferencia Electrónica",
+    "nombreResponsableDePago": "Leonardo Marchant",
+    "emailRespondableDePago": "leonardo.marchant@museoschile.gob.cl",
+    "prohibicionDeSubcontratacion": "Se permite subcontratación"
+  },
+  "8": {
+    "beneficiario": null,
+    "fechaVencimiento": null,
+    "monto": null,
+    "descripcion": null,
+    "glosa": null,
+    "formaYOportunidadDeRestitucion": null
+  },
+  "9": {
+    "clausulaReadjudicacion": null,
+    "resolucionDeEmpates": "Las respuestas a las consultas y a la solicitud de aclaraciones, se entregarán por el mismo medio, hasta la fecha y hora que se indica en el portal, las que formarán parte integrante de las bases de esta licitación.",
+    "mecanismoSolucionConsultas": "Los oferentes pueden presentar más de una oferta, las que de forma separada deben cumplir con todos los requisitos administrativos, técnicos y económicos señalados en estas Bases de Licitación. De exigirse garantía de seriedad de la oferta, cada una de las ofertas deberá tener asociada su propia garantía de seriedad",
+    "acreditacionCumplimiento": "En el caso que se detecte alguna inconsistencia que pudiera afectar la presentación de ofertas o el principio de igualdad de los oferentes, se suspenderá el proceso,con la respectiva resolución fundada que respalde dicha decisióny, en caso de que la inconsistencia no sea subsanable, el SNPC podrá revocar el proceso licitatoriomediante resolución fundada que así lo disponga.Lo anterior, sin perjuicio de la facultad de revisión de los actos administrativos por parte de la Administración, de conformidad con lo dispuesto en el artículo 61 de la Ley N° 19.880 que Establece Bases de los Procedimientos Administrativos que Rigen los Actos de los Órganos de la Administración del Estado.",
+    "presentacionAntecedentesOmitidos": "La  evaluación será efectuada  por  la Comisión Evaluadora, la  que se determinará  e  integrará, conforme al Manual de Procedimientos de Adquisiciones de la Dibam.\r\nAdemás, la Comisión Evaluadora podrá  solicitar  la  asesoría de otros  expertos  de  las materias técnicas a revisar durante el proceso de evaluación.\r\nLas personas que integren  la  Comisión Evaluadora no podrán tener conflictos de interés quienes presenten oferta  en esta licitación,  para lo cual al momento  de la  adjudicación se emitirá  una declaración jurada firmada por sus integrantes, de acuerdo a  la  Directiva N° 14 de la  Dirección de Compras Públicas.",
+    "pactoDeIntegridad": "La empresa o persona adjudicada deberá guardar reserva de toda aquella información que obtenga con motivo del presente contrato.\r\nLa divulgación, parcial o total a través de cualquier medio, de la información referida por parte de la\r\nempresa adjudicada durante la prestación de los servicios, o después de su finalización, dará lugar a el  SNPC a  entablar   las acciones  judiciales   que  correspondan    contra   la  empresa   responsable,   sin perjuicio   de  la  responsabilidad    solidaria   por  los actos  en  infracción   de  esta  obligación   que  hayan ejecutado  sus empleados  y quienes  resulten  responsables."
+  }
+}

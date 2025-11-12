@@ -90,6 +90,11 @@
       "nombre": "grvCriterios_ctl07_lblNombreCriterio",
       "observacion": "grvCriterios_ctl07_lblObservaciones",
       "ponderacion": "grvCriterios_ctl07_lblPonderacion"
+    },
+    "item7": {
+      "nombre": "grvCriterios_ctl08_lblNombreCriterio",
+      "observacion": "grvCriterios_ctl08_lblObservaciones",
+      "ponderacion": "grvCriterios_ctl08_lblPonderacion"
     }
   },
   "7": {

@@ -1,5 +1,9 @@
 # Agente-Licitaciones
 
+# Agente-LicitacionesV1
+
+POC de un buscador de licitaciones en la plataforma Mercado Publico y evaluación segun la compatibilidad con una empresa
+
 # Instrucciones para correr el filtro de licitaciones
 
 Primero correr:

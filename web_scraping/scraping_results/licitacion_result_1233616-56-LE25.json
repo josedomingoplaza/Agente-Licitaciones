@@ -1,0 +1,128 @@
+{
+  "1": {
+    "descripcion": "ADQUISICIÓN DE MATERIAL DIDÁCTICO DESTINADO A ESTABLECIMIENTOS EDUCACIONALES DEL TERRITORIO PUNILLA CORDILLERA PROGRAMA REACTIVACIÓN EDUCATIVA.",
+    "tipo": "Pública-Licitación Pública igual o superior a 100 UTM e inferior a 1.000 UTM (LE)",
+    "etapas": "Una Etapa"
+  },
+  "2": {
+    "razonSocial": "Servicio Local de Educación Pública Punilla Cordil",
+    "unidadDeCompra": "Servicio Local de Educación Pública Punilla Cordil",
+    "rut": "61.980.940-8",
+    "direccion": "Calle Arturo Prat Norte 460",
+    "comuna": "San Carlos",
+    "regionDeLicitacion": "Región del Ñuble"
+  },
+  "3": {},
+  "4": {
+    "documentosAdministrativos": "REX-3603 APRUEBA BASES LICITACIÓN MATERIAL DIDACTICO PARA EE.EE (REACTIVACIÓN EDUCATIVA)",
+    "documentosTecnicos": "ANEXO N°4 (PLAZO DE ENTREGA)",
+    "documentosEconomicos": "ANEXO N°7 (OFERTA ECONÓMICA)"
+  },
+  "5": {
+    "personaNatural": [
+      "Haber sido condenado por cualquiera de los delitos de cohecho contemplados en el título V del Libro Segundo del Código Penal.",
+      "Registrar una o más deudas tributarias por un monto total superior a 500 UTM por más de un año, o superior a 200 UTM e inferior a 500 UTM por un período superior a 2 años, sin que exista un convenio de pago vigente. En caso de encontrarse pendiente juicio sobre la efectividad de la deuda, esta inhabilidad regirá una vez que se encuentre firme o ejecutoriada la respectiva resolución.",
+      "Registrar deudas previsionales o de salud por más de 12 meses por sus trabajadores dependientes, lo que se acreditará mediante certificado de la autoridad competente.",
+      "La presentación al Registro Nacional de Proveedores de uno o más documentos falsos, declarado así por sentencia judicial ejecutoriada.",
+      "Haber sido declarado en quiebra por resolución judicial ejecutoriada.",
+      "Haber sido eliminado o encontrarse suspendido del Registro Nacional de Proveedores por resolución fundada de la Dirección de Compras.",
+      "Haber sido condenado por prácticas antisindicales o infracción a los derechos fundamentales del trabajador.",
+      "Registrar condenas asociadas a responsabilidad penal jurídica (incumplimiento artículo 10, Ley 20.393)."
+    ],
+    "documentosPersonaNatural": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "personaJuridica": [
+      "Haber sido condenado por cualquiera de los delitos de cohecho contemplados en el título V del Libro Segundo del Código Penal.",
+      "Registrar una o más deudas tributarias por un monto total superior a 500 UTM por más de un año, o superior a 200 UTM e inferior a 500 UTM por un período superior a 2 años, sin que exista un convenio de pago vigente. En caso de encontrarse pendiente juicio sobre la efectividad de la deuda, esta inhabilidad regirá una vez que se encuentre firme o ejecutoriada la respectiva resolución.",
+      "Registrar deudas previsionales o de salud por más de 12 meses por sus trabajadores dependientes, lo que se acreditará mediante certificado de la autoridad competente.",
+      "La presentación al Registro Nacional de Proveedores de uno o más documentos falsos, declarado así por sentencia judicial ejecutoriada.",
+      "Haber sido declarado en quiebra por resolución judicial ejecutoriada.",
+      "Haber sido eliminado o encontrarse suspendido del Registro Nacional de Proveedores por resolución fundada de la Dirección de Compras.",
+      "Haber sido condenado por prácticas antisindicales o infracción a los derechos fundamentales del trabajador.",
+      "Registrar condenas asociadas a responsabilidad penal jurídica (incumplimiento artículo 10, Ley 20.393)."
+    ],
+    "documentosPersonaJuridica": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "6": {
+    "item1": {
+      "nombre": "Cumplimiento programa de integridad",
+      "observacion": "-Oferente cuenta con programa de integridad implementado y entrega respaldos de verificación: 100 puntos, -Oferente no cuenta con programa de integridad implementado:\t0 puntos.",
+      "ponderacion": "5%"
+    },
+    "item2": {
+      "nombre": "Cumplimiento de los requisitos",
+      "observacion": "-Cumple con los requisitos formales de presentación de la oferta dentro de plazo y forma: 100 puntos, -No cumple con los requisitos formales de presentación de la oferta dentro de plazo y forma: 0 puntos.",
+      "ponderacion": "10%"
+    },
+    "item3": {
+      "nombre": "Precio",
+      "observacion": "X= Precio mínimo ofertado * 100 /Precio Oferta X 0,50",
+      "ponderacion": "50%"
+    },
+    "item4": {
+      "nombre": "Plazo de Entrega",
+      "observacion": "-1 a 5 días corridos: 100, -6 a 10 días corridos: 50, -11 a 15 días corridos: 0, -Sobre 15 días: Inadmisible.",
+      "ponderacion": "35%"
+    },
+    "item5": {
+      "nombre": null,
+      "observacion": null,
+      "ponderacion": null
+    },
+    "item6": {
+      "nombre": null,
+      "observacion": null,
+      "ponderacion": null
+    },
+    "item7": {
+      "nombre": null,
+      "observacion": null,
+      "ponderacion": null
+    }
+  },
+  "7": {
+    "estimacionEnBaseA": "Presupuesto Disponible",
+    "fuenteDeFinanciamiento": "No hay información",
+    "contratoConRenovacion": "NO",
+    "observaciones": "Sin observaciones",
+    "tiempoDeContrato": null,
+    "plazosDePago": "30 días contra la recepción conforme de la factura",
+    "opcionesDePago": "Transferencia Electrónica",
+    "nombreResponsableDePago": "MARÍA FUENTES RUBIO",
+    "emailRespondableDePago": "maria.fuentes@sleppunillacordillera.cl",
+    "prohibicionDeSubcontratacion": "Se permite subcontratación"
+  },
+  "8": {
+    "beneficiario": null,
+    "fechaVencimiento": null,
+    "monto": null,
+    "descripcion": null,
+    "glosa": null,
+    "formaYOportunidadDeRestitucion": null
+  },
+  "9": {
+    "clausulaReadjudicacion": "Si el respectivo adjudicatario se desiste de su oferta, no entrega los antecedentes legales para contratar y/o la garantía de fiel cumplimiento, no firma el contrato o no se inscribe en Chileproveedores en los plazos que se establecen en las presentes bases, la entidad licitante podrá dejar sin efecto la adjudicación y seleccionar al oferente que, de acuerdo al resultado de la evaluación le siga en puntaje, y así sucesivamente, a menos que, de acuerdo a los intereses del servicio, se estime conveniente declarar desierta la licitación.",
+    "resolucionDeEmpates": "En el evento de que, una vez culminado el proceso de evaluación de ofertas, hubiese dos o más proponentes que hayan obtenido el mismo puntaje total, quedando más de uno en condiciones de resultar adjudicados, se optará por aquella oferta que cuente con un mayor puntaje en el criterio de evaluación que se indica a continuación por orden de prelación, hasta que se rompa el desempate:Oferta Económica.Plazo de entrega de productos.Cumplimiento de requisitos formales.Cumplimiento programa de integridad.Finalmente, si aún persiste el empate, se seleccionará a la propuesta que ingresó primero en el portalwww.mercadopublico.cl",
+    "mecanismoSolucionConsultas": "Las consultas sobre la adjudicación deberán realizarse dentro del plazo fatal de 02 días hábiles contados desde la publicación en el Sistema de Informaciónwww.mercadopublico.cl, a través del correo electrónico Email:compras@sleppunillacordillera.cl. Y se dispondrá del mismo tiempo indicado precedentemente para dar respuesta a dichas consultas.",
+    "acreditacionCumplimiento": "A través del Certificado F30.",
+    "presentacionAntecedentesOmitidos": "Durante la etapa de evaluación el SLEP podrá solicitar a los oferentes:a.Salvar los errores u omisiones formales en que ha incurrido. No se considerará error formal errores en el precio de la oferta.b.La presentación de certificaciones o antecedentes que hayan omitido presentar al momento de efectuar la oferta, siempre que dichas certificaciones o antecedentes se hayan producido u obtenido con anterioridad al vencimiento del plazo para presentar ofertas.La presentación de certificaciones o antecedentes que se refieran a situaciones no mutables entre el vencimiento del plazo para presentar ofertas y el periodo de evaluación de estas.Las rectificaciones de los errores u omisiones detectados por el SLEP y que se solicitan y permiten salvar o subsanar a los oferentes, no podrán conferir una situación de privilegio respecto de los demás competidores, dado que se afectará el principio de igualdad de los oferentes. Tratándose de certificaciones o antecedentes incompletos se entenderán como no presentados oportunamente y podrá aplicarse lo dispuesto en esta cláusula.Para dichas presentaciones de certificaciones o antecedentes se otorgará un plazo fatal de 72 horas hábiles, contados desde su comunicación al oferente por parte del servicio, la que se informará a través del Sistema de informaciónwww.mercadopublico.cl. La responsabilidad de revisar oportunamente dicho sistema durante el período de evaluación recae exclusivamente en los respectivos oferentes.En estos casos, en el criterio de evaluación “Cumplimiento de requisitos formales” se asignará menor puntaje a las ofertas que no cumplieron, dentro del plazo para presentación de las ofertas, con todo lo requerido, según Art. Nº56 del Reglamento de la Ley Nº19.886.",
+    "pactoDeIntegridad": "El oferente declara que, por el sólo hecho de participar en la presente licitación, acepta expresamente el presente pacto de integridad, obligándose a cumplir con todas y cada una de las estipulaciones que contenidas el mismo, sin perjuicio de las que se señalen en el resto de las bases de licitación y demás documentos integrantes. Especialmente, el oferente acepta el suministrar toda la información y documentación que sea considerada necesaria y exigida de acuerdo a las presentes bases de licitación, asumiendo expresamente los siguientes compromisos:1.- El oferente se compromete a respetar los derechos fundamentales de sus trabajadores, entendiéndose por éstos los consagrados en la Constitución Política de la República en su artículo 19, números 1º, 4º, 5º, 6º, 12º, y 16º, en conformidad al artículo 485 del código del trabajo.  Asimismo, el oferente se compromete a respetar los derechos humanos, lo que significa que debe evitar dar lugar o contribuir a efectos adversos en los derechos humanos mediante sus actividades, productos o servicios, y subsanar esos efectos cuando se produzcan, de acuerdo a los Principios Rectores de Derechos Humanos y Empresas de Naciones Unidas.2.-El oferente se obliga a no ofrecer ni conceder, ni intentar ofrecer o conceder, sobornos, regalos, premios, dádivas o pagos, cualquiera fuese su tipo, naturaleza y/o monto, a ningún funcionario público en relación con su oferta, con el proceso de licitación pública, ni con la ejecución de él o los contratos que eventualmente se deriven de la misma, ni tampoco a ofrecerlas o concederlas a terceras personas que pudiesen influir directa o indirectamente en el proceso licitatorio, en su toma de decisiones o en la posterior adjudicación y ejecución del o los contratos que de ello se deriven.3.- El oferente se obliga a no intentar ni efectuar acuerdos o realizar negociaciones, actos o conductas que tengan por objeto influir o afectar de cualquier forma la libre competencia, cualquiera fuese la conducta o acto específico, y especialmente, aquellos acuerdos, negociaciones, actos o conductas de tipo o naturaleza colusiva, en cualquier de sus tipos o formas.4.- El oferente se obliga a revisar y verificar toda la información y documentación, que deba presentar para efectos del presente proceso licitatorio, tomando todas las medidas que sean necesarias para asegurar la veracidad, integridad, legalidad, consistencia, precisión y vigencia de la misma.\r\n5.- El oferente se obliga a ajustar su actuar y cumplir con los principios de legalidad, ética, moral, buenas costumbres y transparencia en el presente proceso licitatorio.\r\n6.- El oferente manifiesta, garantiza y acepta que conoce y respetará las reglas y condiciones establecidas en las bases de licitación, sus documentos integrantes y él o los contratos que de ellos se derivase.7.- El oferente se obliga y acepta asumir, las consecuencias y sanciones previstas en estas bases de licitación, así como en la legislación y normativa que sean aplicables a la misma.8.- El oferente reconoce y declara que la oferta presentada en el proceso licitatorio es una propuesta seria, con información fidedigna y en términos técnicos y económicos ajustados a la realidad, que aseguren la posibilidad de cumplir con la misma en las condiciones y oportunidad ofertadas.9.- El oferente se obliga a tomar todas las medidas que fuesen necesarias para que las obligaciones anteriormente señaladas sean asumidas y cabalmente cumplidas por sus empleados y/o dependientes y/o asesores y/o agentes y en general, todas las personas con que éste o éstos se relacionen directa o indirectamente en virtud o como efecto de la presente licitación, incluidos sus subcontratistas, haciéndose plenamente responsable de las consecuencias de su infracción, sin perjuicio de las responsabilidades individuales que también procediesen y/o fuesen determinadas por los organismos correspondientes."
+  }
+}
